@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MIRCO-FIT-4-SMD">
+<wire x1="17.88" y1="-1.36" x2="17.88" y2="3.01" width="0.127" layer="51"/>
+<wire x1="2.32" y1="-1.36" x2="2.32" y2="3.01" width="0.127" layer="51"/>
+<wire x1="2.32" y1="-1.36" x2="17.88" y2="-1.36" width="0.127" layer="51"/>
+<wire x1="2.32" y1="3.01" x2="17.88" y2="3.01" width="0.127" layer="51"/>
+<wire x1="2.3" y1="1.9" x2="2.3" y2="3" width="0.3048" layer="21"/>
+<wire x1="2.3" y1="3" x2="4.7" y2="3" width="0.3048" layer="21"/>
+<wire x1="6.5" y1="3" x2="7.7" y2="3" width="0.3048" layer="21"/>
+<wire x1="9.5" y1="3" x2="10.7" y2="3" width="0.3048" layer="21"/>
+<wire x1="12.5" y1="3" x2="13.7" y2="3" width="0.3048" layer="21"/>
+<wire x1="15.5" y1="3" x2="17.9" y2="3" width="0.3048" layer="21"/>
+<wire x1="17.9" y1="3" x2="17.9" y2="1.9" width="0.3048" layer="21"/>
+<wire x1="17.9" y1="-0.3" x2="17.9" y2="-1.4" width="0.3048" layer="21"/>
+<wire x1="17.9" y1="-1.4" x2="2.3" y2="-1.4" width="0.3048" layer="21"/>
+<wire x1="2.3" y1="-1.4" x2="2.3" y2="-0.3" width="0.3048" layer="21"/>
+<text x="2" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="2" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="NC1" x="1.715" y="0.825" dx="3.43" dy="1.65" layer="1"/>
+<smd name="C1" x="5.6" y="3.955" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="C2" x="8.6" y="3.955" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="C3" x="11.6" y="3.955" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="C4" x="14.6" y="3.955" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="NC2" x="18.485" y="0.825" dx="3.43" dy="1.65" layer="1"/>
+</package>
+<package name="TEN60-S24-P6-RA">
+<hole x="3.32" y="7.9" drill="3.2"/>
+<pad name="S1" x="9.49" y="4.4" drill="1" rot="R270"/>
+<pad name="S9" x="9.49" y="6.94" drill="1" rot="R270"/>
+<pad name="S17" x="9.49" y="9.48" drill="1" rot="R270"/>
+<pad name="S18" x="12.03" y="9.48" drill="1" rot="R270"/>
+<pad name="S19" x="14.57" y="9.48" drill="1" rot="R270"/>
+<pad name="S20" x="17.11" y="9.48" drill="1" rot="R270"/>
+<pad name="S21" x="19.65" y="9.48" drill="1" rot="R270"/>
+<pad name="S22" x="22.19" y="9.48" drill="1" rot="R270"/>
+<pad name="S23" x="24.73" y="9.48" drill="1" rot="R270"/>
+<pad name="S24" x="27.27" y="9.48" drill="1" rot="R270"/>
+<pad name="S10" x="12.03" y="6.94" drill="1" rot="R270"/>
+<pad name="S11" x="14.57" y="6.94" drill="1" rot="R180"/>
+<pad name="S12" x="17.11" y="6.94" drill="1" rot="R270"/>
+<pad name="S13" x="19.65" y="6.94" drill="1" rot="R270"/>
+<pad name="S14" x="22.19" y="6.94" drill="1" rot="R270"/>
+<pad name="S15" x="24.73" y="6.94" drill="1" rot="R270"/>
+<pad name="S16" x="27.27" y="6.94" drill="1" rot="R270"/>
+<pad name="S2" x="12.03" y="4.4" drill="1" rot="R270"/>
+<pad name="S3" x="14.57" y="4.4" drill="1" rot="R270"/>
+<pad name="S4" x="17.11" y="4.4" drill="1" rot="R270"/>
+<pad name="S5" x="19.65" y="4.4" drill="1" rot="R270"/>
+<pad name="S6" x="22.19" y="4.4" drill="1" rot="R270"/>
+<pad name="S7" x="24.73" y="4.4" drill="1" rot="R270"/>
+<pad name="S8" x="27.27" y="4.4" drill="1" rot="R180"/>
+<pad name="P6.1" x="62.95" y="2.9" drill="1" rot="R270"/>
+<pad name="P6.2" x="62.95" y="5.4" drill="1" rot="R270"/>
+<pad name="P6.3" x="62.95" y="7.9" drill="1" rot="R270"/>
+<pad name="P6.4" x="62.95" y="10.4" drill="1" rot="R270"/>
+<pad name="P6.5" x="62.95" y="12.9" drill="1" rot="R270"/>
+<pad name="P6.6" x="59.95" y="12.9" drill="1" rot="R270"/>
+<pad name="P6.7" x="59.95" y="10.4" drill="1" rot="R270"/>
+<pad name="P6.8" x="59.95" y="7.9" drill="1" rot="R270"/>
+<pad name="P6.9" x="59.95" y="5.4" drill="1" rot="R270"/>
+<pad name="P6.10" x="59.95" y="2.9" drill="1" rot="R270"/>
+<pad name="P5.5" x="57.45" y="12.9" drill="1" rot="R270"/>
+<pad name="P5.4" x="57.45" y="10.4" drill="1" rot="R270"/>
+<pad name="P5.3" x="57.45" y="7.9" drill="1" rot="R270"/>
+<pad name="P5.2" x="57.45" y="5.4" drill="1" rot="R270"/>
+<pad name="P5.1" x="57.45" y="2.9" drill="1" rot="R270"/>
+<pad name="P5.6" x="54.45" y="12.9" drill="1" rot="R270"/>
+<pad name="P5.7" x="54.45" y="10.4" drill="1" rot="R270"/>
+<pad name="P5.8" x="54.45" y="7.9" drill="1" rot="R270"/>
+<pad name="P5.9" x="54.45" y="5.4" drill="1" rot="R270"/>
+<pad name="P5.10" x="54.45" y="2.9" drill="1" rot="R270"/>
+<pad name="P4.5" x="51.95" y="12.9" drill="1" rot="R270"/>
+<pad name="P4.4" x="51.95" y="10.4" drill="1" rot="R270"/>
+<pad name="P4.3" x="51.95" y="7.9" drill="1" rot="R270"/>
+<pad name="P4.2" x="51.95" y="5.4" drill="1" rot="R270"/>
+<pad name="P4.1" x="51.95" y="2.9" drill="1" rot="R270"/>
+<pad name="P4.6" x="48.95" y="12.9" drill="1" rot="R270"/>
+<pad name="P4.7" x="48.95" y="10.4" drill="1" rot="R270"/>
+<pad name="P4.8" x="48.95" y="7.9" drill="1" rot="R270"/>
+<pad name="P4.9" x="48.95" y="5.4" drill="1" rot="R270"/>
+<pad name="P4.10" x="48.95" y="2.9" drill="1" rot="R270"/>
+<pad name="P3.5" x="46.45" y="12.9" drill="1" rot="R270"/>
+<pad name="P3.4" x="46.45" y="10.4" drill="1" rot="R270"/>
+<pad name="P3.3" x="46.45" y="7.9" drill="1" rot="R270"/>
+<pad name="P3.2" x="46.45" y="5.4" drill="1" rot="R270"/>
+<pad name="P3.1" x="46.45" y="2.9" drill="1" rot="R270"/>
+<pad name="P3.6" x="43.45" y="12.9" drill="1" rot="R270"/>
+<pad name="P3.7" x="43.45" y="10.4" drill="1" rot="R270"/>
+<pad name="P3.8" x="43.45" y="7.9" drill="1" rot="R270"/>
+<pad name="P3.9" x="43.45" y="5.4" drill="1" rot="R270"/>
+<pad name="P3.10" x="43.45" y="2.9" drill="1" rot="R270"/>
+<pad name="P2.5" x="40.95" y="12.9" drill="1" rot="R270"/>
+<pad name="P2.4" x="40.95" y="10.4" drill="1" rot="R270"/>
+<pad name="P2.3" x="40.95" y="7.9" drill="1" rot="R270"/>
+<pad name="P2.2" x="40.95" y="5.4" drill="1" rot="R270"/>
+<pad name="P2.1" x="40.95" y="2.9" drill="1" rot="R270"/>
+<pad name="P2.6" x="37.95" y="12.9" drill="1" rot="R270"/>
+<pad name="P2.7" x="37.95" y="10.4" drill="1" rot="R270"/>
+<pad name="P2.8" x="37.95" y="7.9" drill="1" rot="R270"/>
+<pad name="P2.9" x="37.95" y="5.4" drill="1" rot="R270"/>
+<pad name="P2.10" x="37.95" y="2.9" drill="1" rot="R270"/>
+<pad name="P1.5" x="35.45" y="12.9" drill="1" rot="R270"/>
+<pad name="P1.4" x="35.45" y="10.4" drill="1" rot="R270"/>
+<pad name="P1.3" x="35.45" y="7.9" drill="1" rot="R270"/>
+<pad name="P1.2" x="35.45" y="5.4" drill="1" rot="R270"/>
+<pad name="P1.1" x="35.45" y="2.9" drill="1" rot="R270"/>
+<pad name="P1.6" x="32.45" y="12.9" drill="1" rot="R270"/>
+<pad name="P1.7" x="32.45" y="10.4" drill="1" rot="R270"/>
+<pad name="P1.8" x="32.45" y="7.9" drill="1" rot="R270"/>
+<pad name="P1.9" x="32.45" y="5.4" drill="1" rot="R270"/>
+<pad name="P1.10" x="32.45" y="2.9" drill="1" rot="R270"/>
+<hole x="68.45" y="7.9" drill="3.2"/>
+<wire x1="0" y1="0" x2="0" y2="13.68" width="0.127" layer="21"/>
+<wire x1="0" y1="13.68" x2="72" y2="13.68" width="0.127" layer="21"/>
+<wire x1="72" y1="13.68" x2="72" y2="0" width="0.127" layer="21"/>
+<wire x1="72" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="9" y="2" size="1.27" layer="21" rot="SR0">1</text>
+<text x="32" y="15" size="1.27" layer="21" rot="SR0">1</text>
+<text x="26" y="11" size="1.27" layer="21" rot="SR0">24</text>
+<text x="63" y="15" size="1.27" layer="21" rot="SR0">6</text>
+<wire x1="-4" y1="1" x2="-3" y2="0" width="0.127" layer="48"/>
+<wire x1="-3" y1="0" x2="-2" y2="1" width="0.127" layer="48"/>
+<wire x1="-3" y1="0" x2="-3" y2="14" width="0.127" layer="48"/>
+<text x="-9.08" y="15" size="1.27" layer="48">Board edge</text>
+<rectangle x1="0" y1="-5.08" x2="2.54" y2="0" layer="48"/>
+<rectangle x1="69.85" y1="-5.08" x2="72.39" y2="0" layer="48"/>
+<text x="2" y="15" size="1.27" layer="21" rot="SR0">L</text>
+<text x="68" y="15" size="1.27" layer="21" rot="SR0">R</text>
+</package>
+<package name="TEN60-P6-P6-RA">
+<hole x="80.16" y="7.9" drill="3.2"/>
+<hole x="3.32" y="7.9" drill="3.2"/>
+<pad name="P1.6" x="8.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P1.7" x="8.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P1.8" x="8.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P1.9" x="8.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P1.10" x="8.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P1.1" x="11.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P1.2" x="11.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P1.3" x="11.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P1.4" x="11.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P1.5" x="11.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P2.10" x="14.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P2.9" x="14.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P2.8" x="14.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P2.7" x="14.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P2.6" x="14.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P2.1" x="17.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P2.2" x="17.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P2.3" x="17.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P2.4" x="17.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P2.5" x="17.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P3.10" x="19.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P3.9" x="19.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P3.8" x="19.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P3.7" x="19.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P3.6" x="19.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P3.1" x="22.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P3.2" x="22.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P3.3" x="22.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P3.4" x="22.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P3.5" x="22.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P4.10" x="25.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P4.9" x="25.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P4.8" x="25.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P4.7" x="25.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P4.6" x="25.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P4.1" x="28.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P4.2" x="28.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P4.3" x="28.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P4.4" x="28.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P4.5" x="28.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P5.10" x="30.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P5.9" x="30.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P5.8" x="30.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P5.7" x="30.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P5.6" x="30.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P5.1" x="33.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P5.2" x="33.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P5.3" x="33.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P5.4" x="33.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P5.5" x="33.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P6.10" x="36.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P6.9" x="36.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P6.8" x="36.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P6.7" x="36.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P6.6" x="36.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P6.1" x="39.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P6.2" x="39.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P6.3" x="39.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P6.4" x="39.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P6.5" x="39.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P7.6" x="44.16" y="2.9" drill="1" rot="R270"/>
+<pad name="P7.7" x="44.16" y="5.4" drill="1" rot="R270"/>
+<pad name="P7.8" x="44.16" y="7.9" drill="1" rot="R270"/>
+<pad name="P7.9" x="44.16" y="10.4" drill="1" rot="R270"/>
+<pad name="P7.10" x="44.16" y="12.9" drill="1" rot="R270"/>
+<pad name="P7.1" x="47.16" y="12.9" drill="1" rot="R270"/>
+<pad name="P7.2" x="47.16" y="10.4" drill="1" rot="R270"/>
+<pad name="P7.3" x="47.16" y="7.9" drill="1" rot="R270"/>
+<pad name="P7.4" x="47.16" y="5.4" drill="1" rot="R270"/>
+<pad name="P7.5" x="47.16" y="2.9" drill="1" rot="R270"/>
+<pad name="P8.10" x="49.66" y="12.9" drill="1" rot="R270"/>
+<pad name="P8.9" x="49.66" y="10.4" drill="1" rot="R270"/>
+<pad name="P8.8" x="49.66" y="7.9" drill="1" rot="R270"/>
+<pad name="P8.7" x="49.66" y="5.4" drill="1" rot="R270"/>
+<pad name="P8.6" x="49.66" y="2.9" drill="1" rot="R270"/>
+<pad name="P8.1" x="52.66" y="12.9" drill="1" rot="R270"/>
+<pad name="P8.2" x="52.66" y="10.4" drill="1" rot="R270"/>
+<pad name="P8.3" x="52.66" y="7.9" drill="1" rot="R270"/>
+<pad name="P8.4" x="52.66" y="5.4" drill="1" rot="R270"/>
+<pad name="P8.5" x="52.66" y="2.9" drill="1" rot="R270"/>
+<pad name="P9.10" x="55.16" y="12.9" drill="1" rot="R270"/>
+<pad name="P9.9" x="55.16" y="10.4" drill="1" rot="R270"/>
+<pad name="P9.8" x="55.16" y="7.9" drill="1" rot="R270"/>
+<pad name="P9.7" x="55.16" y="5.4" drill="1" rot="R270"/>
+<pad name="P9.6" x="55.16" y="2.9" drill="1" rot="R270"/>
+<pad name="P9.1" x="58.16" y="12.9" drill="1" rot="R270"/>
+<pad name="P9.2" x="58.16" y="10.4" drill="1" rot="R270"/>
+<pad name="P9.3" x="58.16" y="7.9" drill="1" rot="R270"/>
+<pad name="P9.4" x="58.16" y="5.4" drill="1" rot="R270"/>
+<pad name="P9.5" x="58.16" y="2.9" drill="1" rot="R270"/>
+<pad name="P10.10" x="60.66" y="12.9" drill="1" rot="R270"/>
+<pad name="P10.9" x="60.66" y="10.4" drill="1" rot="R270"/>
+<pad name="P10.8" x="60.66" y="7.9" drill="1" rot="R270"/>
+<pad name="P10.7" x="60.66" y="5.4" drill="1" rot="R270"/>
+<pad name="P10.6" x="60.66" y="2.9" drill="1" rot="R270"/>
+<pad name="P10.1" x="63.66" y="12.9" drill="1" rot="R270"/>
+<pad name="P10.2" x="63.66" y="10.4" drill="1" rot="R270"/>
+<pad name="P10.3" x="63.66" y="7.9" drill="1" rot="R270"/>
+<pad name="P10.4" x="63.66" y="5.4" drill="1" rot="R270"/>
+<pad name="P10.5" x="63.66" y="2.9" drill="1" rot="R270"/>
+<pad name="P11.10" x="66.16" y="12.9" drill="1" rot="R270"/>
+<pad name="P11.9" x="66.16" y="10.4" drill="1" rot="R270"/>
+<pad name="P11.8" x="66.16" y="7.9" drill="1" rot="R270"/>
+<pad name="P11.7" x="66.16" y="5.4" drill="1" rot="R270"/>
+<pad name="P11.6" x="66.16" y="2.9" drill="1" rot="R270"/>
+<pad name="P11.1" x="69.16" y="12.9" drill="1" rot="R270"/>
+<pad name="P11.2" x="69.16" y="10.4" drill="1" rot="R270"/>
+<pad name="P11.3" x="69.16" y="7.9" drill="1" rot="R270"/>
+<pad name="P11.4" x="69.16" y="5.4" drill="1" rot="R270"/>
+<pad name="P11.5" x="69.16" y="2.9" drill="1" rot="R270"/>
+<pad name="P12.10" x="71.66" y="12.9" drill="1" rot="R270"/>
+<pad name="P12.9" x="71.66" y="10.4" drill="1" rot="R270"/>
+<pad name="P12.8" x="71.66" y="7.9" drill="1" rot="R270"/>
+<pad name="P12.7" x="71.66" y="5.4" drill="1" rot="R270"/>
+<pad name="P12.6" x="71.66" y="2.9" drill="1" rot="R270"/>
+<pad name="P12.1" x="74.66" y="12.9" drill="1" rot="R270"/>
+<pad name="P12.2" x="74.66" y="10.4" drill="1" rot="R270"/>
+<pad name="P12.3" x="74.66" y="7.9" drill="1" rot="R270"/>
+<pad name="P12.4" x="74.66" y="5.4" drill="1" rot="R270"/>
+<pad name="P12.5" x="74.66" y="2.9" drill="1" rot="R270"/>
+<wire x1="83.48" y1="13.68" x2="0" y2="13.68" width="0.127" layer="21"/>
+<wire x1="0" y1="13.68" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="83.48" y2="0" width="0.127" layer="21"/>
+<wire x1="83.48" y1="0" x2="83.48" y2="13.68" width="0.127" layer="21"/>
+<text x="3" y="15" size="1.27" layer="21" rot="SR0">L</text>
+<text x="8" y="15" size="1.27" layer="21" rot="SR0">1</text>
+<text x="74" y="15" size="1.27" layer="21" rot="SR0">12</text>
+<text x="80" y="15" size="1.27" layer="21" rot="SR0">R</text>
+<rectangle x1="0" y1="-5.08" x2="2.54" y2="0" layer="48"/>
+<rectangle x1="81.28" y1="-5.08" x2="83.82" y2="0" layer="48"/>
+<wire x1="-5.08" y1="1.27" x2="-3.81" y2="0" width="0.127" layer="48"/>
+<wire x1="-3.81" y1="0" x2="-2.54" y2="1.27" width="0.127" layer="48"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="13.97" width="0.127" layer="48"/>
+<text x="-8.89" y="15.24" size="1.27" layer="48">Board edge</text>
+</package>
+<package name="TEN60-S24-S24-P4-RA">
+<hole x="3.32" y="7.9" drill="3.2"/>
+<hole x="80.32" y="7.9" drill="3.2"/>
+<pad name="P1.1" x="55.32" y="12.9" drill="1"/>
+<pad name="P1.10" x="58.32" y="12.9" drill="1"/>
+<pad name="P2.1" x="60.82" y="12.9" drill="1"/>
+<pad name="P2.10" x="63.82" y="12.9" drill="1"/>
+<pad name="P3.1" x="66.32" y="12.9" drill="1"/>
+<pad name="P3.10" x="69.32" y="12.9" drill="1"/>
+<pad name="P4.1" x="71.82" y="12.9" drill="1"/>
+<pad name="P4.10" x="74.82" y="12.9" drill="1"/>
+<pad name="P1.2" x="55.32" y="10.4" drill="1"/>
+<pad name="P1.3" x="55.32" y="7.9" drill="1"/>
+<pad name="P1.4" x="55.32" y="5.4" drill="1"/>
+<pad name="P1.5" x="55.32" y="2.9" drill="1"/>
+<pad name="P1.9" x="58.32" y="10.4" drill="1"/>
+<pad name="P1.8" x="58.32" y="7.9" drill="1"/>
+<pad name="P1.7" x="58.32" y="5.4" drill="1"/>
+<pad name="P1.6" x="58.32" y="2.9" drill="1"/>
+<pad name="P2.2" x="60.82" y="10.4" drill="1"/>
+<pad name="P2.3" x="60.82" y="7.9" drill="1"/>
+<pad name="P2.4" x="60.82" y="5.4" drill="1"/>
+<pad name="P2.5" x="60.82" y="2.9" drill="1"/>
+<pad name="P2.9" x="63.82" y="10.4" drill="1"/>
+<pad name="P2.8" x="63.82" y="7.9" drill="1"/>
+<pad name="P2.7" x="63.82" y="5.4" drill="1"/>
+<pad name="P2.6" x="63.82" y="2.9" drill="1"/>
+<pad name="P3.2" x="66.32" y="10.4" drill="1"/>
+<pad name="P3.3" x="66.32" y="7.9" drill="1"/>
+<pad name="P3.4" x="66.32" y="5.4" drill="1"/>
+<pad name="P3.5" x="66.32" y="2.9" drill="1"/>
+<pad name="P3.9" x="69.32" y="10.4" drill="1"/>
+<pad name="P3.8" x="69.32" y="7.9" drill="1"/>
+<pad name="P3.7" x="69.32" y="5.4" drill="1"/>
+<pad name="P3.6" x="69.32" y="2.9" drill="1"/>
+<pad name="P4.2" x="71.82" y="10.4" drill="1"/>
+<pad name="P4.3" x="71.82" y="7.9" drill="1"/>
+<pad name="P4.4" x="71.82" y="5.4" drill="1"/>
+<pad name="P4.5" x="71.82" y="2.9" drill="1"/>
+<pad name="P4.9" x="74.82" y="10.4" drill="1"/>
+<pad name="P4.8" x="74.82" y="7.9" drill="1"/>
+<pad name="P4.7" x="74.82" y="5.4" drill="1"/>
+<pad name="P4.6" x="74.82" y="2.9" drill="1"/>
+<pad name="S1" x="9.49" y="4.4" drill="1"/>
+<pad name="S9" x="9.49" y="6.94" drill="1"/>
+<pad name="S17" x="9.49" y="9.48" drill="1"/>
+<pad name="S2" x="12.03" y="4.4" drill="1"/>
+<pad name="S3" x="14.57" y="4.4" drill="1"/>
+<pad name="S4" x="17.11" y="4.4" drill="1"/>
+<pad name="S5" x="19.65" y="4.4" drill="1"/>
+<pad name="S6" x="22.19" y="4.4" drill="1"/>
+<pad name="S7" x="24.73" y="4.4" drill="1"/>
+<pad name="S8" x="27.27" y="4.4" drill="1"/>
+<pad name="S10" x="12.03" y="6.94" drill="1"/>
+<pad name="S18" x="12.03" y="9.48" drill="1"/>
+<pad name="S11" x="14.57" y="6.94" drill="1"/>
+<pad name="S12" x="17.11" y="6.94" drill="1"/>
+<pad name="S13" x="19.65" y="6.94" drill="1"/>
+<pad name="S14" x="22.19" y="6.94" drill="1"/>
+<pad name="S15" x="24.73" y="6.94" drill="1"/>
+<pad name="S16" x="27.27" y="6.94" drill="1"/>
+<pad name="S19" x="14.57" y="9.48" drill="1"/>
+<pad name="S20" x="17.11" y="9.48" drill="1"/>
+<pad name="S21" x="19.65" y="9.48" drill="1"/>
+<pad name="S22" x="22.19" y="9.48" drill="1"/>
+<pad name="S23" x="24.73" y="9.48" drill="1"/>
+<pad name="S24" x="27.27" y="9.48" drill="1"/>
+<pad name="S25" x="32.37" y="4.4" drill="1"/>
+<pad name="S33" x="32.37" y="6.94" drill="1"/>
+<pad name="S41" x="32.37" y="9.48" drill="1"/>
+<pad name="S26" x="34.91" y="4.4" drill="1"/>
+<pad name="S27" x="37.45" y="4.4" drill="1"/>
+<pad name="S28" x="39.99" y="4.4" drill="1"/>
+<pad name="S29" x="42.53" y="4.4" drill="1"/>
+<pad name="S30" x="45.07" y="4.4" drill="1"/>
+<pad name="S31" x="47.61" y="4.4" drill="1"/>
+<pad name="S32" x="50.15" y="4.4" drill="1"/>
+<pad name="S34" x="34.91" y="6.94" drill="1"/>
+<pad name="S42" x="34.91" y="9.48" drill="1"/>
+<pad name="S35" x="37.45" y="6.94" drill="1"/>
+<pad name="S36" x="39.99" y="6.94" drill="1"/>
+<pad name="S37" x="42.53" y="6.94" drill="1"/>
+<pad name="S38" x="45.07" y="6.94" drill="1"/>
+<pad name="S39" x="47.61" y="6.94" drill="1"/>
+<pad name="S40" x="50.15" y="6.94" drill="1"/>
+<pad name="S43" x="37.45" y="9.48" drill="1"/>
+<pad name="S44" x="39.99" y="9.48" drill="1"/>
+<pad name="S45" x="42.53" y="9.48" drill="1"/>
+<pad name="S46" x="45.07" y="9.48" drill="1"/>
+<pad name="S47" x="47.61" y="9.48" drill="1"/>
+<pad name="S48" x="50.15" y="9.48" drill="1"/>
+<wire x1="0" y1="0" x2="0" y2="13.68" width="0.127" layer="21"/>
+<wire x1="0" y1="13.68" x2="84" y2="13.68" width="0.127" layer="21"/>
+<wire x1="84" y1="13.68" x2="84" y2="0" width="0.127" layer="21"/>
+<wire x1="84" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<rectangle x1="0" y1="-4" x2="2" y2="0" layer="48"/>
+<rectangle x1="82" y1="-4" x2="84" y2="0" layer="48"/>
+<text x="9" y="1" size="1.27" layer="21" rot="SR0">1</text>
+<text x="26" y="12" size="1.27" layer="21" rot="SR0">24</text>
+<text x="32" y="1" size="1.27" layer="21" rot="SR0">25</text>
+<text x="49" y="12" size="1.27" layer="21" rot="SR0">48</text>
+<text x="80" y="15" size="1.27" layer="21" rot="SR0">R</text>
+<text x="3" y="15" size="1.27" layer="21" rot="SR0">L</text>
+<text x="54" y="15" size="1.27" layer="21" rot="SR0">1</text>
+<text x="75" y="15" size="1.27" layer="21" rot="SR0">4</text>
+<wire x1="-2" y1="0" x2="-3" y2="-1" width="0.127" layer="48"/>
+<wire x1="-3" y1="-1" x2="-4" y2="0" width="0.127" layer="48"/>
+<wire x1="-3" y1="-1" x2="-3" y2="14" width="0.127" layer="48"/>
+<text x="-12" y="15" size="1.27" layer="48">Board edge</text>
+</package>
+<package name="TEN60-P6-P6-VERT">
+<wire x1="0" y1="0" x2="0" y2="18" width="0.127" layer="21"/>
+<wire x1="0" y1="18" x2="83.4" y2="18" width="0.127" layer="21"/>
+<wire x1="83.4" y1="18" x2="83.4" y2="0" width="0.127" layer="21"/>
+<wire x1="83.4" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P1.4" x="9.18" y="5.25" drill="1"/>
+<pad name="P1.3" x="9.18" y="7.75" drill="1"/>
+<pad name="P1.2" x="9.18" y="10.25" drill="1"/>
+<pad name="P1.1" x="9.18" y="12.75" drill="1"/>
+<pad name="P1.5" x="12.18" y="5.25" drill="1"/>
+<pad name="P2.4" x="14.68" y="5.25" drill="1"/>
+<pad name="P2.5" x="17.68" y="5.25" drill="1"/>
+<pad name="P3.4" x="20.18" y="5.25" drill="1"/>
+<pad name="P3.5" x="23.18" y="5.25" drill="1"/>
+<pad name="P4.4" x="25.68" y="5.25" drill="1"/>
+<pad name="P4.5" x="28.68" y="5.25" drill="1"/>
+<pad name="P5.4" x="31.18" y="5.25" drill="1"/>
+<pad name="P5.5" x="34.18" y="5.25" drill="1"/>
+<pad name="P6.4" x="36.68" y="5.25" drill="1"/>
+<pad name="P6.5" x="39.68" y="5.25" drill="1"/>
+<pad name="P1.7" x="12.18" y="10.25" drill="1"/>
+<pad name="P1.8" x="12.18" y="12.75" drill="1"/>
+<pad name="P1.6" x="12.18" y="7.75" drill="1"/>
+<pad name="P2.3" x="14.68" y="7.75" drill="1"/>
+<pad name="P2.2" x="14.68" y="10.25" drill="1"/>
+<pad name="P2.1" x="14.68" y="12.75" drill="1"/>
+<pad name="P2.7" x="17.68" y="10.25" drill="1"/>
+<pad name="P2.6" x="17.68" y="7.75" drill="1"/>
+<pad name="P2.8" x="17.68" y="12.75" drill="1"/>
+<pad name="P3.2" x="20.18" y="10.25" drill="1"/>
+<pad name="P3.7" x="23.18" y="10.25" drill="1"/>
+<pad name="P3.3" x="20.18" y="7.75" drill="1"/>
+<pad name="P3.6" x="23.18" y="7.75" drill="1"/>
+<pad name="P3.8" x="23.18" y="12.75" drill="1"/>
+<pad name="P3.1" x="20.18" y="12.75" drill="1"/>
+<pad name="P4.2" x="25.68" y="10.25" drill="1"/>
+<pad name="P4.3" x="25.68" y="7.75" drill="1"/>
+<pad name="P4.6" x="28.68" y="7.75" drill="1"/>
+<pad name="P4.7" x="28.68" y="10.25" drill="1"/>
+<pad name="P4.8" x="28.68" y="12.75" drill="1"/>
+<pad name="P4.1" x="25.68" y="12.75" drill="1"/>
+<pad name="P5.2" x="31.18" y="10.25" drill="1"/>
+<pad name="P5.7" x="34.18" y="10.25" drill="1"/>
+<pad name="P5.6" x="34.18" y="7.75" drill="1"/>
+<pad name="P5.3" x="31.18" y="7.75" drill="1"/>
+<pad name="P5.1" x="31.18" y="12.75" drill="1"/>
+<pad name="P5.8" x="34.18" y="12.75" drill="1"/>
+<pad name="P6.2" x="36.68" y="10.25" drill="1"/>
+<pad name="P6.3" x="36.68" y="7.75" drill="1"/>
+<pad name="P6.1" x="36.68" y="12.75" drill="1"/>
+<pad name="P6.7" x="39.68" y="10.25" drill="1"/>
+<pad name="P6.6" x="39.68" y="7.75" drill="1"/>
+<pad name="P6.8" x="39.68" y="12.75" drill="1"/>
+<pad name="P7.4" x="44.08" y="5.25" drill="1"/>
+<pad name="P7.3" x="44.08" y="7.75" drill="1"/>
+<pad name="P7.2" x="44.08" y="10.25" drill="1"/>
+<pad name="P7.1" x="44.08" y="12.75" drill="1"/>
+<pad name="P7.5" x="47.08" y="5.25" drill="1"/>
+<pad name="P8.4" x="49.58" y="5.25" drill="1"/>
+<pad name="P8.5" x="52.58" y="5.25" drill="1"/>
+<pad name="P9.4" x="55.08" y="5.25" drill="1"/>
+<pad name="P9.5" x="58.08" y="5.25" drill="1"/>
+<pad name="P10.4" x="60.58" y="5.25" drill="1"/>
+<pad name="P10.5" x="63.58" y="5.25" drill="1"/>
+<pad name="P11.4" x="66.08" y="5.25" drill="1"/>
+<pad name="P11.5" x="69.08" y="5.25" drill="1"/>
+<pad name="P12.4" x="71.58" y="5.25" drill="1"/>
+<pad name="P12.5" x="74.58" y="5.25" drill="1"/>
+<pad name="P7.7" x="47.08" y="10.25" drill="1"/>
+<pad name="P7.8" x="47.08" y="12.75" drill="1"/>
+<pad name="P7.6" x="47.08" y="7.75" drill="1"/>
+<pad name="P8.3" x="49.58" y="7.75" drill="1"/>
+<pad name="P8.2" x="49.58" y="10.25" drill="1"/>
+<pad name="P8.1" x="49.58" y="12.75" drill="1"/>
+<pad name="P8.7" x="52.58" y="10.25" drill="1"/>
+<pad name="P8.6" x="52.58" y="7.75" drill="1"/>
+<pad name="P8.8" x="52.58" y="12.75" drill="1"/>
+<pad name="P9.2" x="55.08" y="10.25" drill="1"/>
+<pad name="P9.7" x="58.08" y="10.25" drill="1"/>
+<pad name="P9.3" x="55.08" y="7.75" drill="1"/>
+<pad name="P9.6" x="58.08" y="7.75" drill="1"/>
+<pad name="P9.8" x="58.08" y="12.75" drill="1"/>
+<pad name="P9.1" x="55.08" y="12.75" drill="1"/>
+<pad name="P10.2" x="60.58" y="10.25" drill="1"/>
+<pad name="P10.3" x="60.58" y="7.75" drill="1"/>
+<pad name="P10.6" x="63.58" y="7.75" drill="1"/>
+<pad name="P10.7" x="63.58" y="10.25" drill="1"/>
+<pad name="P10.8" x="63.58" y="12.75" drill="1"/>
+<pad name="P10.1" x="60.58" y="12.75" drill="1"/>
+<pad name="P11.2" x="66.08" y="10.25" drill="1"/>
+<pad name="P11.7" x="69.08" y="10.25" drill="1"/>
+<pad name="P11.6" x="69.08" y="7.75" drill="1"/>
+<pad name="P11.3" x="66.08" y="7.75" drill="1"/>
+<pad name="P11.1" x="66.08" y="12.75" drill="1"/>
+<pad name="P11.8" x="69.08" y="12.75" drill="1"/>
+<pad name="P12.2" x="71.58" y="10.25" drill="1"/>
+<pad name="P12.3" x="71.58" y="7.75" drill="1"/>
+<pad name="P12.1" x="71.58" y="12.75" drill="1"/>
+<pad name="P12.7" x="74.58" y="10.25" drill="1"/>
+<pad name="P12.6" x="74.58" y="7.75" drill="1"/>
+<pad name="P12.8" x="74.58" y="12.75" drill="1"/>
+<text x="3" y="19" size="1.27" layer="21" rot="SR0">L</text>
+<text x="80" y="19" size="1.27" layer="21" rot="SR0">R</text>
+<text x="9" y="19" size="1.27" layer="21" rot="SR0">1</text>
+<text x="74" y="19" size="1.27" layer="21" rot="SR0">12</text>
+</package>
+<package name="TEN60-S24-P6-VERT">
+<wire x1="0" y1="0" x2="0" y2="18" width="0.127" layer="21"/>
+<wire x1="0" y1="18" x2="71.76" y2="18" width="0.127" layer="21"/>
+<wire x1="71.76" y1="18" x2="71.76" y2="0" width="0.127" layer="21"/>
+<wire x1="71.76" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="S17" x="9.49" y="6.66" drill="1"/>
+<pad name="S18" x="12.03" y="6.66" drill="1"/>
+<pad name="S19" x="14.57" y="6.66" drill="1"/>
+<pad name="S21" x="19.65" y="6.66" drill="1"/>
+<pad name="S20" x="17.11" y="6.66" drill="1"/>
+<pad name="S22" x="22.19" y="6.66" drill="1"/>
+<pad name="S23" x="24.73" y="6.66" drill="1"/>
+<pad name="S24" x="27.27" y="6.66" drill="1"/>
+<pad name="S9" x="9.49" y="9.2" drill="1"/>
+<pad name="S1" x="9.49" y="11.74" drill="1"/>
+<pad name="S10" x="12.03" y="9.2" drill="1"/>
+<pad name="S11" x="14.57" y="9.2" drill="1"/>
+<pad name="S12" x="17.11" y="9.2" drill="1"/>
+<pad name="S13" x="19.65" y="9.2" drill="1"/>
+<pad name="S14" x="22.19" y="9.2" drill="1"/>
+<pad name="S15" x="24.73" y="9.2" drill="1"/>
+<pad name="S16" x="27.27" y="9.2" drill="1"/>
+<pad name="S2" x="12.03" y="11.74" drill="1"/>
+<pad name="S3" x="14.57" y="11.74" drill="1"/>
+<pad name="S4" x="17.11" y="11.74" drill="1"/>
+<pad name="S5" x="19.65" y="11.74" drill="1"/>
+<pad name="S6" x="22.19" y="11.74" drill="1"/>
+<pad name="S7" x="24.73" y="11.74" drill="1"/>
+<pad name="S8" x="27.27" y="11.74" drill="1"/>
+<text x="3" y="19" size="1.27" layer="21" rot="SR0">L</text>
+<text x="69" y="19" size="1.27" layer="21" rot="SR0">R</text>
+<pad name="P6.5" x="62.94" y="5.75" drill="1"/>
+<pad name="P6.6" x="62.94" y="8.25" drill="1"/>
+<pad name="P6.7" x="62.94" y="10.75" drill="1"/>
+<pad name="P6.8" x="62.94" y="13.25" drill="1"/>
+<pad name="P6.4" x="59.94" y="5.75" drill="1"/>
+<pad name="P5.5" x="57.44" y="5.75" drill="1"/>
+<pad name="P5.4" x="54.44" y="5.75" drill="1"/>
+<pad name="P4.5" x="51.94" y="5.75" drill="1"/>
+<pad name="P4.4" x="48.94" y="5.75" drill="1"/>
+<pad name="P3.5" x="46.44" y="5.75" drill="1"/>
+<pad name="P3.4" x="43.44" y="5.75" drill="1"/>
+<pad name="P2.5" x="40.94" y="5.75" drill="1"/>
+<pad name="P2.4" x="37.94" y="5.75" drill="1"/>
+<pad name="P1.5" x="35.44" y="5.75" drill="1"/>
+<pad name="P1.4" x="32.44" y="5.75" drill="1"/>
+<pad name="P6.2" x="59.94" y="10.75" drill="1"/>
+<pad name="P6.3" x="59.94" y="8.25" drill="1"/>
+<pad name="P6.1" x="59.94" y="13.25" drill="1"/>
+<pad name="P5.6" x="57.44" y="8.25" drill="1"/>
+<pad name="P5.7" x="57.44" y="10.75" drill="1"/>
+<pad name="P5.8" x="57.44" y="13.25" drill="1"/>
+<pad name="P5.2" x="54.44" y="10.75" drill="1"/>
+<pad name="P5.3" x="54.44" y="8.25" drill="1"/>
+<pad name="P5.1" x="54.44" y="13.25" drill="1"/>
+<pad name="P4.7" x="51.94" y="10.75" drill="1"/>
+<pad name="P4.2" x="48.94" y="10.75" drill="1"/>
+<pad name="P4.3" x="48.94" y="8.25" drill="1"/>
+<pad name="P4.6" x="51.94" y="8.25" drill="1"/>
+<pad name="P4.8" x="51.94" y="13.25" drill="1"/>
+<pad name="P4.1" x="48.94" y="13.25" drill="1"/>
+<pad name="P3.7" x="46.44" y="10.75" drill="1"/>
+<pad name="P3.2" x="43.44" y="10.75" drill="1"/>
+<pad name="P3.3" x="43.44" y="8.25" drill="1"/>
+<pad name="P3.6" x="46.44" y="8.25" drill="1"/>
+<pad name="P3.8" x="46.44" y="13.25" drill="1"/>
+<pad name="P3.1" x="43.44" y="13.25" drill="1"/>
+<pad name="P2.7" x="40.94" y="10.75" drill="1"/>
+<pad name="P2.2" x="37.94" y="10.75" drill="1"/>
+<pad name="P2.3" x="37.94" y="8.25" drill="1"/>
+<pad name="P2.6" x="40.94" y="8.25" drill="1"/>
+<pad name="P2.1" x="37.94" y="13.25" drill="1"/>
+<pad name="P2.8" x="40.94" y="13.25" drill="1"/>
+<pad name="P1.7" x="35.44" y="10.75" drill="1"/>
+<pad name="P1.2" x="32.44" y="10.75" drill="1"/>
+<pad name="P1.3" x="32.44" y="8.25" drill="1"/>
+<pad name="P1.6" x="35.44" y="8.25" drill="1"/>
+<pad name="P1.1" x="32.44" y="13.25" drill="1"/>
+<pad name="P1.8" x="35.44" y="13.25" drill="1"/>
+<text x="32" y="19" size="1.27" layer="21" rot="SR0">1</text>
+<text x="63" y="19" size="1.27" layer="21" rot="SR0">6</text>
+<text x="9" y="14" size="1.27" layer="21" rot="SR0">1</text>
+<text x="27" y="3" size="1.27" layer="21" rot="SR0">24</text>
+</package>
+<package name="TEN60-S24-RA">
+<hole x="3.32" y="7.9" drill="3.2"/>
+<hole x="33.08" y="7.9" drill="3.2"/>
+<pad name="S1" x="9.49" y="4.4" drill="1"/>
+<pad name="S2" x="12.03" y="4.4" drill="1"/>
+<pad name="S3" x="14.57" y="4.4" drill="1"/>
+<pad name="S4" x="17.11" y="4.4" drill="1"/>
+<pad name="S5" x="19.65" y="4.4" drill="1"/>
+<pad name="S6" x="22.19" y="4.4" drill="1"/>
+<pad name="S7" x="24.73" y="4.4" drill="1"/>
+<pad name="S8" x="27.27" y="4.4" drill="1"/>
+<pad name="S9" x="9.49" y="6.94" drill="1"/>
+<pad name="S10" x="12.03" y="6.94" drill="1"/>
+<pad name="S11" x="14.57" y="6.94" drill="1"/>
+<pad name="S12" x="17.11" y="6.94" drill="1"/>
+<pad name="S13" x="19.65" y="6.94" drill="1"/>
+<pad name="S14" x="22.19" y="6.94" drill="1"/>
+<pad name="S15" x="24.73" y="6.94" drill="1"/>
+<pad name="S16" x="27.27" y="6.94" drill="1"/>
+<pad name="S17" x="9.49" y="9.48" drill="1"/>
+<pad name="S18" x="12.03" y="9.48" drill="1"/>
+<pad name="S19" x="14.57" y="9.48" drill="1"/>
+<pad name="S20" x="17.11" y="9.48" drill="1"/>
+<pad name="S21" x="19.65" y="9.48" drill="1"/>
+<pad name="S22" x="22.19" y="9.48" drill="1"/>
+<pad name="S23" x="24.73" y="9.48" drill="1"/>
+<pad name="S24" x="27.27" y="9.48" drill="1"/>
+<wire x1="0" y1="0" x2="0" y2="13.68" width="0.127" layer="21"/>
+<wire x1="0" y1="13.68" x2="36.76" y2="13.68" width="0.127" layer="21"/>
+<wire x1="36.76" y1="13.68" x2="36.76" y2="0" width="0.127" layer="21"/>
+<wire x1="36.76" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="1" y="15" size="1.27" layer="21" rot="SR0">L</text>
+<text x="34" y="15" size="1.27" layer="21" rot="SR0">R</text>
+<text x="9" y="1" size="1.27" layer="21" rot="SR0">1</text>
+<text x="27" y="11" size="1.27" layer="21" rot="SR0">24</text>
+<wire x1="-4" y1="2" x2="-3" y2="1" width="0.127" layer="48"/>
+<wire x1="-3" y1="1" x2="-2" y2="2" width="0.127" layer="48"/>
+<wire x1="-3" y1="1" x2="-3" y2="14" width="0.127" layer="48"/>
+<text x="-10" y="15" size="1.27" layer="48">Board edge</text>
+</package>
+<package name="TEN60-S24-S24-P4-VERT">
+<pad name="S17" x="9.49" y="6.16" drill="1"/>
+<pad name="S18" x="12.03" y="6.16" drill="1"/>
+<pad name="S19" x="14.57" y="6.16" drill="1"/>
+<pad name="S20" x="17.11" y="6.16" drill="1"/>
+<pad name="S21" x="19.65" y="6.16" drill="1"/>
+<pad name="S22" x="22.19" y="6.16" drill="1"/>
+<pad name="S23" x="24.73" y="6.16" drill="1"/>
+<pad name="S24" x="27.27" y="6.16" drill="1"/>
+<pad name="S9" x="9.49" y="8.7" drill="1"/>
+<pad name="S10" x="12.03" y="8.7" drill="1"/>
+<pad name="S11" x="14.57" y="8.7" drill="1"/>
+<pad name="S12" x="17.11" y="8.7" drill="1"/>
+<pad name="S13" x="19.65" y="8.7" drill="1"/>
+<pad name="S14" x="22.19" y="8.7" drill="1"/>
+<pad name="S15" x="24.73" y="8.7" drill="1"/>
+<pad name="S16" x="27.27" y="8.7" drill="1"/>
+<pad name="S1" x="9.49" y="11.24" drill="1"/>
+<pad name="S2" x="12.03" y="11.24" drill="1"/>
+<pad name="S3" x="14.57" y="11.24" drill="1"/>
+<pad name="S4" x="17.11" y="11.24" drill="1"/>
+<pad name="S5" x="19.65" y="11.24" drill="1"/>
+<pad name="S6" x="22.19" y="11.24" drill="1"/>
+<pad name="S7" x="24.73" y="11.24" drill="1"/>
+<pad name="S8" x="27.27" y="11.24" drill="1"/>
+<pad name="P4.5" x="75.18" y="5.25" drill="1"/>
+<pad name="P4.6" x="75.18" y="7.75" drill="1"/>
+<pad name="P4.7" x="75.18" y="10.25" drill="1"/>
+<pad name="P4.8" x="75.18" y="12.75" drill="1"/>
+<pad name="P4.4" x="72.18" y="5.25" drill="1"/>
+<pad name="P4.3" x="72.18" y="7.75" drill="1"/>
+<pad name="P4.2" x="72.18" y="10.25" drill="1"/>
+<pad name="P4.1" x="72.18" y="12.75" drill="1"/>
+<pad name="P3.5" x="69.68" y="5.25" drill="1"/>
+<pad name="P3.6" x="69.68" y="7.75" drill="1"/>
+<pad name="P3.7" x="69.68" y="10.25" drill="1"/>
+<pad name="P3.8" x="69.68" y="12.75" drill="1"/>
+<pad name="P3.4" x="66.68" y="5.25" drill="1"/>
+<pad name="P3.3" x="66.68" y="7.75" drill="1"/>
+<pad name="P3.2" x="66.68" y="10.25" drill="1"/>
+<pad name="P3.1" x="66.68" y="12.75" drill="1"/>
+<pad name="P2.5" x="64.18" y="5.25" drill="1"/>
+<pad name="P2.6" x="64.18" y="7.75" drill="1"/>
+<pad name="P2.7" x="64.18" y="10.25" drill="1"/>
+<pad name="P2.8" x="64.18" y="12.75" drill="1"/>
+<pad name="P2.4" x="61.18" y="5.25" drill="1"/>
+<pad name="P2.3" x="61.18" y="7.75" drill="1"/>
+<pad name="P2.2" x="61.18" y="10.25" drill="1"/>
+<pad name="P2.1" x="61.18" y="12.75" drill="1"/>
+<pad name="P1.5" x="58.68" y="5.25" drill="1"/>
+<pad name="P1.6" x="58.68" y="7.75" drill="1"/>
+<pad name="P1.7" x="58.68" y="10.25" drill="1"/>
+<pad name="P1.8" x="58.68" y="12.75" drill="1"/>
+<pad name="P1.4" x="55.68" y="5.25" drill="1"/>
+<pad name="P1.3" x="55.68" y="7.75" drill="1"/>
+<pad name="P1.2" x="55.68" y="10.25" drill="1"/>
+<pad name="P1.1" x="55.68" y="12.75" drill="1"/>
+<pad name="S41" x="32.73" y="6.16" drill="1"/>
+<pad name="S42" x="35.27" y="6.16" drill="1"/>
+<pad name="S43" x="37.81" y="6.16" drill="1"/>
+<pad name="S44" x="40.35" y="6.16" drill="1"/>
+<pad name="S45" x="42.89" y="6.16" drill="1"/>
+<pad name="S46" x="45.43" y="6.16" drill="1"/>
+<pad name="S47" x="47.97" y="6.16" drill="1"/>
+<pad name="S48" x="50.51" y="6.16" drill="1"/>
+<pad name="S33" x="32.73" y="8.7" drill="1"/>
+<pad name="S34" x="35.27" y="8.7" drill="1"/>
+<pad name="S35" x="37.81" y="8.7" drill="1"/>
+<pad name="S36" x="40.35" y="8.7" drill="1"/>
+<pad name="S37" x="42.89" y="8.7" drill="1"/>
+<pad name="S38" x="45.43" y="8.7" drill="1"/>
+<pad name="S39" x="47.97" y="8.7" drill="1"/>
+<pad name="S40" x="50.51" y="8.7" drill="1"/>
+<pad name="S25" x="32.73" y="11.24" drill="1"/>
+<pad name="S26" x="35.27" y="11.24" drill="1"/>
+<pad name="S27" x="37.81" y="11.24" drill="1"/>
+<pad name="S28" x="40.35" y="11.24" drill="1"/>
+<pad name="S29" x="42.89" y="11.24" drill="1"/>
+<pad name="S30" x="45.43" y="11.24" drill="1"/>
+<pad name="S31" x="47.97" y="11.24" drill="1"/>
+<pad name="S32" x="50.51" y="11.24" drill="1"/>
+<wire x1="0" y1="0" x2="0" y2="18" width="0.127" layer="21"/>
+<wire x1="0" y1="18" x2="84" y2="18" width="0.127" layer="21"/>
+<wire x1="84" y1="18" x2="84" y2="0" width="0.127" layer="21"/>
+<wire x1="84" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="0" y="20" size="1.27" layer="21" rot="SR0">L</text>
+<text x="83" y="20" size="1.27" layer="21" rot="SR0">R</text>
+<text x="55" y="20" size="1.27" layer="21" rot="SR0">1</text>
+<text x="74" y="20" size="1.27" layer="21" rot="SR0">4</text>
+<text x="9" y="13" size="1.27" layer="21" rot="SR0">1</text>
+<text x="27" y="3" size="1.27" layer="21" rot="SR0">24</text>
+<text x="32" y="13" size="1.27" layer="21" rot="SR0">25</text>
+<text x="50" y="3" size="1.27" layer="21" rot="SR0">48</text>
+</package>
+<package name="TEN60-S24-VERT">
+<wire x1="0" y1="0" x2="0" y2="18" width="0.127" layer="21"/>
+<wire x1="0" y1="18" x2="37" y2="18" width="0.127" layer="21"/>
+<wire x1="37" y1="18" x2="37" y2="0" width="0.127" layer="21"/>
+<wire x1="37" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="S17" x="9.49" y="6.16" drill="1"/>
+<pad name="S18" x="12.03" y="6.16" drill="1"/>
+<pad name="S19" x="14.57" y="6.16" drill="1"/>
+<pad name="S21" x="19.65" y="6.16" drill="1"/>
+<pad name="S20" x="17.11" y="6.16" drill="1"/>
+<pad name="S22" x="22.19" y="6.16" drill="1"/>
+<pad name="S23" x="24.73" y="6.16" drill="1"/>
+<pad name="S24" x="27.27" y="6.16" drill="1"/>
+<pad name="S9" x="9.49" y="8.7" drill="1"/>
+<pad name="S1" x="9.49" y="11.24" drill="1"/>
+<pad name="S10" x="12.03" y="8.7" drill="1"/>
+<pad name="S11" x="14.57" y="8.7" drill="1"/>
+<pad name="S12" x="17.11" y="8.7" drill="1"/>
+<pad name="S13" x="19.65" y="8.7" drill="1"/>
+<pad name="S14" x="22.19" y="8.7" drill="1"/>
+<pad name="S15" x="24.73" y="8.7" drill="1"/>
+<pad name="S16" x="27.27" y="8.7" drill="1"/>
+<pad name="S2" x="12.03" y="11.24" drill="1"/>
+<pad name="S3" x="14.57" y="11.24" drill="1"/>
+<pad name="S4" x="17.11" y="11.24" drill="1"/>
+<pad name="S5" x="19.65" y="11.24" drill="1"/>
+<pad name="S6" x="22.19" y="11.24" drill="1"/>
+<pad name="S7" x="24.73" y="11.24" drill="1"/>
+<pad name="S8" x="27.27" y="11.24" drill="1"/>
+<text x="9" y="13" size="1.27" layer="21" rot="SR0">1</text>
+<text x="27" y="3" size="1.27" layer="21" rot="SR0">24</text>
+<text x="1" y="19" size="1.27" layer="21" rot="SR0">L</text>
+<text x="35" y="19" size="1.27" layer="21" rot="SR0">R</text>
+</package>
+<package name="TEN60-P6-S24-S24-P6-RA">
+<wire x1="0" y1="0" x2="0" y2="13.68" width="0.127" layer="21"/>
+<wire x1="0" y1="13.68" x2="130" y2="13.68" width="0.127" layer="21"/>
+<wire x1="130" y1="13.68" x2="130" y2="0" width="0.127" layer="21"/>
+<wire x1="130" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="3.32" y="7.9" drill="3.2"/>
+<hole x="126.32" y="7.9" drill="3.2"/>
+<pad name="S1" x="44.48" y="4.4" drill="1"/>
+<pad name="S9" x="44.48" y="6.94" drill="1"/>
+<pad name="S17" x="44.48" y="9.48" drill="1"/>
+<pad name="S2" x="47.02" y="4.4" drill="1"/>
+<pad name="S3" x="49.56" y="4.4" drill="1"/>
+<pad name="S4" x="52.1" y="4.4" drill="1"/>
+<pad name="S5" x="54.64" y="4.4" drill="1"/>
+<pad name="S6" x="57.18" y="4.4" drill="1"/>
+<pad name="S7" x="59.72" y="4.4" drill="1"/>
+<pad name="S8" x="62.26" y="4.4" drill="1"/>
+<pad name="S10" x="47.02" y="6.94" drill="1"/>
+<pad name="S18" x="47.02" y="9.48" drill="1"/>
+<pad name="S11" x="49.56" y="6.94" drill="1"/>
+<pad name="S12" x="52.1" y="6.94" drill="1"/>
+<pad name="S13" x="54.64" y="6.94" drill="1"/>
+<pad name="S14" x="57.18" y="6.94" drill="1"/>
+<pad name="S15" x="59.72" y="6.94" drill="1"/>
+<pad name="S16" x="62.26" y="6.94" drill="1"/>
+<pad name="S19" x="49.56" y="9.48" drill="1"/>
+<pad name="S20" x="52.1" y="9.48" drill="1"/>
+<pad name="S21" x="54.64" y="9.48" drill="1"/>
+<pad name="S22" x="57.18" y="9.48" drill="1"/>
+<pad name="S23" x="59.72" y="9.48" drill="1"/>
+<pad name="S24" x="62.26" y="9.48" drill="1"/>
+<pad name="S25" x="67.36" y="4.4" drill="1"/>
+<pad name="S33" x="67.36" y="6.94" drill="1"/>
+<pad name="S41" x="67.36" y="9.48" drill="1"/>
+<pad name="S26" x="69.9" y="4.4" drill="1"/>
+<pad name="S27" x="72.44" y="4.4" drill="1"/>
+<pad name="S28" x="74.98" y="4.4" drill="1"/>
+<pad name="S29" x="77.52" y="4.4" drill="1"/>
+<pad name="S30" x="80.06" y="4.4" drill="1"/>
+<pad name="S31" x="82.6" y="4.4" drill="1"/>
+<pad name="S32" x="85.14" y="4.4" drill="1"/>
+<pad name="S34" x="69.9" y="6.94" drill="1"/>
+<pad name="S42" x="69.9" y="9.48" drill="1"/>
+<pad name="S35" x="72.44" y="6.94" drill="1"/>
+<pad name="S36" x="74.98" y="6.94" drill="1"/>
+<pad name="S37" x="77.52" y="6.94" drill="1"/>
+<pad name="S38" x="80.06" y="6.94" drill="1"/>
+<pad name="S39" x="82.6" y="6.94" drill="1"/>
+<pad name="S40" x="85.14" y="6.94" drill="1"/>
+<pad name="S43" x="72.44" y="9.48" drill="1"/>
+<pad name="S44" x="74.98" y="9.48" drill="1"/>
+<pad name="S45" x="77.52" y="9.48" drill="1"/>
+<pad name="S46" x="80.06" y="9.48" drill="1"/>
+<pad name="S47" x="82.6" y="9.48" drill="1"/>
+<pad name="S48" x="85.14" y="9.48" drill="1"/>
+<pad name="P12.6" x="120.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P12.7" x="120.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P12.8" x="120.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P12.9" x="120.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P12.10" x="120.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P12.1" x="117.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P12.2" x="117.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P12.3" x="117.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P12.4" x="117.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P12.5" x="117.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P11.10" x="115.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P11.9" x="115.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P11.8" x="115.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P11.7" x="115.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P11.6" x="115.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P11.1" x="112.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P11.2" x="112.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P11.3" x="112.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P11.4" x="112.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P11.5" x="112.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P10.10" x="109.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P10.9" x="109.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P10.8" x="109.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P10.7" x="109.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P10.6" x="109.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P10.1" x="106.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P10.2" x="106.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P10.3" x="106.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P10.4" x="106.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P10.5" x="106.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P9.10" x="104.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P9.9" x="104.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P9.8" x="104.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P9.7" x="104.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P9.6" x="104.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P9.1" x="101.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P9.2" x="101.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P9.3" x="101.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P9.4" x="101.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P9.5" x="101.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P8.10" x="98.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P8.9" x="98.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P8.8" x="98.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P8.7" x="98.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P8.6" x="98.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P8.1" x="95.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P8.2" x="95.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P8.3" x="95.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P8.4" x="95.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P8.5" x="95.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P7.10" x="93.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P7.9" x="93.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P7.8" x="93.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P7.7" x="93.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P7.6" x="93.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P7.1" x="90.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P7.2" x="90.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P7.3" x="90.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P7.4" x="90.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P7.5" x="90.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P6.6" x="39.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P6.7" x="39.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P6.8" x="39.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P6.9" x="39.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P6.10" x="39.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P6.1" x="36.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P6.2" x="36.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P6.3" x="36.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P6.4" x="36.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P6.5" x="36.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P5.10" x="33.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P5.9" x="33.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P5.8" x="33.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P5.7" x="33.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P5.6" x="33.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P5.1" x="30.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P5.2" x="30.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P5.3" x="30.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P5.4" x="30.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P5.5" x="30.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P4.10" x="28.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P4.9" x="28.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P4.8" x="28.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P4.7" x="28.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P4.6" x="28.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P4.1" x="25.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P4.2" x="25.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P4.3" x="25.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P4.4" x="25.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P4.5" x="25.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P3.10" x="22.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P3.9" x="22.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P3.8" x="22.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P3.7" x="22.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P3.6" x="22.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P3.1" x="19.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P3.2" x="19.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P3.3" x="19.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P3.4" x="19.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P3.5" x="19.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P2.10" x="17.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P2.9" x="17.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P2.8" x="17.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P2.7" x="17.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P2.6" x="17.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P2.1" x="14.32" y="12.9" drill="1" rot="R270"/>
+<pad name="P2.2" x="14.32" y="10.4" drill="1" rot="R270"/>
+<pad name="P2.3" x="14.32" y="7.9" drill="1" rot="R270"/>
+<pad name="P2.4" x="14.32" y="5.4" drill="1" rot="R270"/>
+<pad name="P2.5" x="14.32" y="2.9" drill="1" rot="R270"/>
+<pad name="P1.10" x="11.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P1.9" x="11.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P1.8" x="11.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P1.7" x="11.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P1.6" x="11.82" y="2.9" drill="1" rot="R270"/>
+<pad name="P1.1" x="8.82" y="12.9" drill="1" rot="R270"/>
+<pad name="P1.2" x="8.82" y="10.4" drill="1" rot="R270"/>
+<pad name="P1.3" x="8.82" y="7.9" drill="1" rot="R270"/>
+<pad name="P1.4" x="8.82" y="5.4" drill="1" rot="R270"/>
+<pad name="P1.5" x="8.82" y="2.9" drill="1" rot="R270"/>
+<text x="8" y="15" size="1.27" layer="21" rot="SR0">1</text>
+<text x="39" y="15" size="1.27" layer="21" rot="SR0">6</text>
+<text x="90" y="15" size="1.27" layer="21" rot="SR0">7</text>
+<text x="120" y="15" size="1.27" layer="21" rot="SR0">12</text>
+<text x="44" y="2" size="1.27" layer="21" rot="SR0">1</text>
+<text x="62" y="11" size="1.27" layer="21" rot="SR0">24</text>
+<text x="67" y="2" size="1.27" layer="21" rot="SR0">25</text>
+<text x="84" y="11" size="1.27" layer="21" rot="SR0">48</text>
+<text x="1" y="15" size="1.27" layer="21" rot="SR0">L</text>
+<text x="128" y="15" size="1.27" layer="21" rot="SR0">R</text>
+<rectangle x1="0" y1="-4" x2="2" y2="0" layer="48"/>
+<rectangle x1="128" y1="-4" x2="130" y2="0" layer="48"/>
+<wire x1="-3" y1="1" x2="-2" y2="0" width="0.127" layer="48"/>
+<wire x1="-2" y1="0" x2="-1" y2="1" width="0.127" layer="48"/>
+<wire x1="-2" y1="0" x2="-2" y2="14" width="0.127" layer="48"/>
+<text x="-11" y="15" size="1.27" layer="48">Board edge</text>
+</package>
+<package name="TEN60-P6-S24-S24-P6-VERT">
+<wire x1="0" y1="0" x2="0" y2="18" width="0.127" layer="21"/>
+<wire x1="0" y1="18" x2="130" y2="18" width="0.127" layer="21"/>
+<wire x1="130" y1="18" x2="130" y2="0" width="0.127" layer="21"/>
+<wire x1="130" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="S17" x="44.49" y="6.66" drill="1"/>
+<pad name="S18" x="47.03" y="6.66" drill="1"/>
+<pad name="S19" x="49.57" y="6.66" drill="1"/>
+<pad name="S20" x="52.11" y="6.66" drill="1"/>
+<pad name="S21" x="54.65" y="6.66" drill="1"/>
+<pad name="S22" x="57.19" y="6.66" drill="1"/>
+<pad name="S23" x="59.73" y="6.66" drill="1"/>
+<pad name="S24" x="62.27" y="6.66" drill="1"/>
+<pad name="S9" x="44.49" y="9.2" drill="1"/>
+<pad name="S10" x="47.03" y="9.2" drill="1"/>
+<pad name="S11" x="49.57" y="9.2" drill="1"/>
+<pad name="S12" x="52.11" y="9.2" drill="1"/>
+<pad name="S13" x="54.65" y="9.2" drill="1"/>
+<pad name="S14" x="57.19" y="9.2" drill="1"/>
+<pad name="S15" x="59.73" y="9.2" drill="1"/>
+<pad name="S16" x="62.27" y="9.2" drill="1"/>
+<pad name="S1" x="44.49" y="11.74" drill="1"/>
+<pad name="S2" x="47.03" y="11.74" drill="1"/>
+<pad name="S3" x="49.57" y="11.74" drill="1"/>
+<pad name="S4" x="52.11" y="11.74" drill="1"/>
+<pad name="S5" x="54.65" y="11.74" drill="1"/>
+<pad name="S6" x="57.19" y="11.74" drill="1"/>
+<pad name="S7" x="59.73" y="11.74" drill="1"/>
+<pad name="S8" x="62.27" y="11.74" drill="1"/>
+<pad name="S41" x="67.73" y="6.66" drill="1"/>
+<pad name="S42" x="70.27" y="6.66" drill="1"/>
+<pad name="S43" x="72.81" y="6.66" drill="1"/>
+<pad name="S44" x="75.35" y="6.66" drill="1"/>
+<pad name="S45" x="77.89" y="6.66" drill="1"/>
+<pad name="S46" x="80.43" y="6.66" drill="1"/>
+<pad name="S47" x="82.97" y="6.66" drill="1"/>
+<pad name="S48" x="85.51" y="6.66" drill="1"/>
+<pad name="S33" x="67.73" y="9.2" drill="1"/>
+<pad name="S34" x="70.27" y="9.2" drill="1"/>
+<pad name="S35" x="72.81" y="9.2" drill="1"/>
+<pad name="S36" x="75.35" y="9.2" drill="1"/>
+<pad name="S37" x="77.89" y="9.2" drill="1"/>
+<pad name="S38" x="80.43" y="9.2" drill="1"/>
+<pad name="S39" x="82.97" y="9.2" drill="1"/>
+<pad name="S40" x="85.51" y="9.2" drill="1"/>
+<pad name="S25" x="67.73" y="11.74" drill="1"/>
+<pad name="S26" x="70.27" y="11.74" drill="1"/>
+<pad name="S27" x="72.81" y="11.74" drill="1"/>
+<pad name="S28" x="75.35" y="11.74" drill="1"/>
+<pad name="S29" x="77.89" y="11.74" drill="1"/>
+<pad name="S30" x="80.43" y="11.74" drill="1"/>
+<pad name="S31" x="82.97" y="11.74" drill="1"/>
+<pad name="S32" x="85.51" y="11.74" drill="1"/>
+<pad name="P6.5" x="39.68" y="5.75" drill="1"/>
+<pad name="P6.6" x="39.68" y="8.25" drill="1"/>
+<pad name="P6.7" x="39.68" y="10.75" drill="1"/>
+<pad name="P6.8" x="39.68" y="13.25" drill="1"/>
+<pad name="P6.4" x="36.68" y="5.75" drill="1"/>
+<pad name="P5.5" x="34.18" y="5.75" drill="1"/>
+<pad name="P5.4" x="31.18" y="5.75" drill="1"/>
+<pad name="P4.5" x="28.68" y="5.75" drill="1"/>
+<pad name="P4.4" x="25.68" y="5.75" drill="1"/>
+<pad name="P3.5" x="23.18" y="5.75" drill="1"/>
+<pad name="P3.4" x="20.18" y="5.75" drill="1"/>
+<pad name="P2.5" x="17.68" y="5.75" drill="1"/>
+<pad name="P2.4" x="14.68" y="5.75" drill="1"/>
+<pad name="P1.5" x="12.18" y="5.75" drill="1"/>
+<pad name="P1.4" x="9.18" y="5.75" drill="1"/>
+<pad name="P6.2" x="36.68" y="10.75" drill="1"/>
+<pad name="P6.3" x="36.68" y="8.25" drill="1"/>
+<pad name="P6.1" x="36.68" y="13.25" drill="1"/>
+<pad name="P5.6" x="34.18" y="8.25" drill="1"/>
+<pad name="P5.7" x="34.18" y="10.75" drill="1"/>
+<pad name="P5.8" x="34.18" y="13.25" drill="1"/>
+<pad name="P5.2" x="31.18" y="10.75" drill="1"/>
+<pad name="P5.3" x="31.18" y="8.25" drill="1"/>
+<pad name="P5.1" x="31.18" y="13.25" drill="1"/>
+<pad name="P4.7" x="28.68" y="10.75" drill="1"/>
+<pad name="P4.2" x="25.68" y="10.75" drill="1"/>
+<pad name="P4.3" x="25.68" y="8.25" drill="1"/>
+<pad name="P4.6" x="28.68" y="8.25" drill="1"/>
+<pad name="P4.8" x="28.68" y="13.25" drill="1"/>
+<pad name="P4.1" x="25.68" y="13.25" drill="1"/>
+<pad name="P3.7" x="23.18" y="10.75" drill="1"/>
+<pad name="P3.2" x="20.18" y="10.75" drill="1"/>
+<pad name="P3.3" x="20.18" y="8.25" drill="1"/>
+<pad name="P3.6" x="23.18" y="8.25" drill="1"/>
+<pad name="P3.8" x="23.18" y="13.25" drill="1"/>
+<pad name="P3.1" x="20.18" y="13.25" drill="1"/>
+<pad name="P2.7" x="17.68" y="10.75" drill="1"/>
+<pad name="P2.2" x="14.68" y="10.75" drill="1"/>
+<pad name="P2.3" x="14.68" y="8.25" drill="1"/>
+<pad name="P2.6" x="17.68" y="8.25" drill="1"/>
+<pad name="P2.1" x="14.68" y="13.25" drill="1"/>
+<pad name="P2.8" x="17.68" y="13.25" drill="1"/>
+<pad name="P1.7" x="12.18" y="10.75" drill="1"/>
+<pad name="P1.2" x="9.18" y="10.75" drill="1"/>
+<pad name="P1.3" x="9.18" y="8.25" drill="1"/>
+<pad name="P1.6" x="12.18" y="8.25" drill="1"/>
+<pad name="P1.1" x="9.18" y="13.25" drill="1"/>
+<pad name="P1.8" x="12.18" y="13.25" drill="1"/>
+<pad name="P12.5" x="121.18" y="5.75" drill="1"/>
+<pad name="P12.6" x="121.18" y="8.25" drill="1"/>
+<pad name="P12.7" x="121.18" y="10.75" drill="1"/>
+<pad name="P12.8" x="121.18" y="13.25" drill="1"/>
+<pad name="P12.4" x="118.18" y="5.75" drill="1"/>
+<pad name="P11.5" x="115.68" y="5.75" drill="1"/>
+<pad name="P11.4" x="112.68" y="5.75" drill="1"/>
+<pad name="P10.5" x="110.18" y="5.75" drill="1"/>
+<pad name="P10.4" x="107.18" y="5.75" drill="1"/>
+<pad name="P9.5" x="104.68" y="5.75" drill="1"/>
+<pad name="P9.4" x="101.68" y="5.75" drill="1"/>
+<pad name="P8.5" x="99.18" y="5.75" drill="1"/>
+<pad name="P8.4" x="96.18" y="5.75" drill="1"/>
+<pad name="P7.5" x="93.68" y="5.75" drill="1"/>
+<pad name="P7.4" x="90.68" y="5.75" drill="1"/>
+<pad name="P12.2" x="118.18" y="10.75" drill="1"/>
+<pad name="P12.3" x="118.18" y="8.25" drill="1"/>
+<pad name="P12.1" x="118.18" y="13.25" drill="1"/>
+<pad name="P11.6" x="115.68" y="8.25" drill="1"/>
+<pad name="P11.7" x="115.68" y="10.75" drill="1"/>
+<pad name="P11.8" x="115.68" y="13.25" drill="1"/>
+<pad name="P11.2" x="112.68" y="10.75" drill="1"/>
+<pad name="P11.3" x="112.68" y="8.25" drill="1"/>
+<pad name="P11.1" x="112.68" y="13.25" drill="1"/>
+<pad name="P10.7" x="110.18" y="10.75" drill="1"/>
+<pad name="P10.2" x="107.18" y="10.75" drill="1"/>
+<pad name="P10.3" x="107.18" y="8.25" drill="1"/>
+<pad name="P10.6" x="110.18" y="8.25" drill="1"/>
+<pad name="P10.8" x="110.18" y="13.25" drill="1"/>
+<pad name="P10.1" x="107.18" y="13.25" drill="1"/>
+<pad name="P9.7" x="104.68" y="10.75" drill="1"/>
+<pad name="P9.2" x="101.68" y="10.75" drill="1"/>
+<pad name="P9.3" x="101.68" y="8.25" drill="1"/>
+<pad name="P9.6" x="104.68" y="8.25" drill="1"/>
+<pad name="P9.8" x="104.68" y="13.25" drill="1"/>
+<pad name="P9.1" x="101.68" y="13.25" drill="1"/>
+<pad name="P8.7" x="99.18" y="10.75" drill="1"/>
+<pad name="P8.2" x="96.18" y="10.75" drill="1"/>
+<pad name="P8.3" x="96.18" y="8.25" drill="1"/>
+<pad name="P8.6" x="99.18" y="8.25" drill="1"/>
+<pad name="P8.1" x="96.18" y="13.25" drill="1"/>
+<pad name="P8.8" x="99.18" y="13.25" drill="1"/>
+<pad name="P7.7" x="93.68" y="10.75" drill="1"/>
+<pad name="P7.2" x="90.68" y="10.75" drill="1"/>
+<pad name="P7.3" x="90.68" y="8.25" drill="1"/>
+<pad name="P7.6" x="93.68" y="8.25" drill="1"/>
+<pad name="P7.1" x="90.68" y="13.25" drill="1"/>
+<pad name="P7.8" x="93.68" y="13.25" drill="1"/>
+<text x="1" y="20" size="1.27" layer="21" rot="SR0">L</text>
+<text x="128" y="19" size="1.27" layer="21" rot="SR0">R</text>
+<text x="8" y="20" size="1.27" layer="21" rot="SR0">1</text>
+<text x="44" y="14" size="1.27" layer="21" rot="SR0">1</text>
+<text x="40" y="20" size="1.27" layer="21" rot="SR0">6</text>
+<text x="61" y="4" size="1.27" layer="21" rot="SR0">24</text>
+<text x="67" y="14" size="1.27" layer="21" rot="SR0">25</text>
+<text x="85" y="4" size="1.27" layer="21" rot="SR0">48</text>
+<text x="90" y="20" size="1.27" layer="21" rot="SR0">7</text>
+<text x="120" y="20" size="1.27" layer="21" rot="SR0">12</text>
+</package>
+<package name="MEGA-FIT-8">
+<rectangle x1="0" y1="0" x2="31.5" y2="17.28" layer="39"/>
+<wire x1="3.51" y1="0" x2="3.51" y2="7.81" width="0.127" layer="21"/>
+<wire x1="3.51" y1="7.81" x2="0" y2="7.81" width="0.127" layer="21"/>
+<wire x1="0" y1="7.81" x2="0" y2="17.28" width="0.127" layer="21"/>
+<wire x1="0" y1="17.28" x2="31.5" y2="17.28" width="0.127" layer="21"/>
+<wire x1="31.5" y1="17.28" x2="31.5" y2="7.81" width="0.127" layer="21"/>
+<wire x1="31.5" y1="7.81" x2="27.99" y2="7.81" width="0.127" layer="21"/>
+<wire x1="27.99" y1="7.81" x2="27.99" y2="0" width="0.127" layer="21"/>
+<wire x1="27.99" y1="0" x2="3.51" y2="0" width="0.127" layer="21"/>
+<hole x="2.03" y="9.84" drill="3"/>
+<hole x="29.47" y="9.84" drill="3"/>
+<pad name="P4" x="7.2" y="3.81" drill="1.8"/>
+<pad name="P3" x="12.9" y="3.81" drill="1.8"/>
+<pad name="P2" x="18.6" y="3.81" drill="1.8"/>
+<pad name="P1" x="24.3" y="3.81" drill="1.8"/>
+<pad name="P8" x="7.2" y="9.51" drill="1.8"/>
+<pad name="P7" x="12.9" y="9.51" drill="1.8"/>
+<pad name="P6" x="18.6" y="9.51" drill="1.8"/>
+<pad name="P5" x="24.3" y="9.51" drill="1.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MICRO-FIT-4-SMD">
+<wire x1="-5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="C4" x="5.08" y="-7.62" visible="pin" length="middle" rot="R90"/>
+<pin name="C3" x="2.54" y="-7.62" visible="pin" length="middle" rot="R90"/>
+<pin name="C2" x="0" y="-7.62" visible="pin" length="middle" rot="R90"/>
+<pin name="C1" x="-2.54" y="-7.62" visible="pin" length="middle" rot="R90"/>
+<text x="-5.08" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TEN60-8-SIG">
+<wire x1="-5.08" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<pin name="P$1" x="5.08" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="P$2" x="5.08" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$3" x="5.08" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$4" x="5.08" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$5" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="P$6" x="5.08" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$7" x="5.08" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$8" x="5.08" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<text x="-7.62" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TEN60-6-PWR">
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="P$1" x="7.62" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$2" x="7.62" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$3" x="7.62" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="P$4" x="7.62" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$5" x="7.62" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$6" x="7.62" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TEN60-4-PWR">
+<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="5.08" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$2" x="5.08" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$3" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="P$4" x="5.08" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="MEGA-FIT-8">
+<wire x1="0" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="10.16" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$2" x="10.16" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<text x="0" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CHB350">
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="VIN+" x="-17.78" y="10.16" length="middle"/>
+<pin name="VIN-" x="-17.78" y="-10.16" length="middle"/>
+<pin name="EN" x="-17.78" y="2.54" length="middle"/>
+<pin name="CASE" x="-17.78" y="-2.54" length="middle"/>
+<pin name="VOUT" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="SENSE-" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="SENSE+" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="TRIM" x="17.78" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICRO-FIT-4-SMD">
+<description>4 Pin Molex connector</description>
+<gates>
+<gate name="G$1" symbol="MICRO-FIT-4-SMD" x="20.32" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="MIRCO-FIT-4-SMD">
+<connects>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+<connect gate="G$1" pin="C3" pad="C3"/>
+<connect gate="G$1" pin="C4" pad="C4"/>
+</connects>
+<technologies>
+<technology name="-PART">
+<attribute name="DIGIKEY-CONTACT-PN" value="WM1125CT-ND"/>
+<attribute name="DIGIKEY-FEMALE-PN" value="WM2640CT-ND"/>
+<attribute name="DIGIKEY-MALE-PN" value="WM1847-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-S24-P6-RA">
+<gates>
+<gate name="G$1" symbol="TEN60-6-PWR" x="-27.94" y="38.1"/>
+<gate name="G$2" symbol="TEN60-8-SIG" x="-25.4" y="2.54"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="-7.62" y="2.54"/>
+<gate name="G$4" symbol="TEN60-8-SIG" x="12.7" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="TEN60-S24-P6-RA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8 P1.9 P1.10"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8 P2.9 P2.10"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8 P3.9 P3.10"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8 P4.9 P4.10"/>
+<connect gate="G$1" pin="P$5" pad="P5.1 P5.2 P5.3 P5.4 P5.5 P5.6 P5.7 P5.8 P5.9 P5.10"/>
+<connect gate="G$1" pin="P$6" pad="P6.1 P6.2 P6.3 P6.4 P6.5 P6.6 P6.7 P6.8 P6.9 P6.10"/>
+<connect gate="G$2" pin="P$1" pad="S1"/>
+<connect gate="G$2" pin="P$2" pad="S2"/>
+<connect gate="G$2" pin="P$3" pad="S3"/>
+<connect gate="G$2" pin="P$4" pad="S4"/>
+<connect gate="G$2" pin="P$5" pad="S5"/>
+<connect gate="G$2" pin="P$6" pad="S6"/>
+<connect gate="G$2" pin="P$7" pad="S7"/>
+<connect gate="G$2" pin="P$8" pad="S8"/>
+<connect gate="G$3" pin="P$1" pad="S9"/>
+<connect gate="G$3" pin="P$2" pad="S10"/>
+<connect gate="G$3" pin="P$3" pad="S11"/>
+<connect gate="G$3" pin="P$4" pad="S12"/>
+<connect gate="G$3" pin="P$5" pad="S13"/>
+<connect gate="G$3" pin="P$6" pad="S14"/>
+<connect gate="G$3" pin="P$7" pad="S15"/>
+<connect gate="G$3" pin="P$8" pad="S16"/>
+<connect gate="G$4" pin="P$1" pad="S17"/>
+<connect gate="G$4" pin="P$2" pad="S18"/>
+<connect gate="G$4" pin="P$3" pad="S19"/>
+<connect gate="G$4" pin="P$4" pad="S20"/>
+<connect gate="G$4" pin="P$5" pad="S21"/>
+<connect gate="G$4" pin="P$6" pad="S22"/>
+<connect gate="G$4" pin="P$7" pad="S23"/>
+<connect gate="G$4" pin="P$8" pad="S24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-P6-P6-RA">
+<gates>
+<gate name="G$1" symbol="TEN60-6-PWR" x="2.54" y="15.24"/>
+<gate name="G$2" symbol="TEN60-6-PWR" x="22.86" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="TEN60-P6-P6-RA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8 P1.9 P1.10"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8 P2.9 P2.10"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8 P3.9 P3.10"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8 P4.9 P4.10"/>
+<connect gate="G$1" pin="P$5" pad="P5.1 P5.2 P5.3 P5.4 P5.5 P5.6 P5.7 P5.8 P5.9 P5.10"/>
+<connect gate="G$1" pin="P$6" pad="P6.1 P6.2 P6.3 P6.4 P6.5 P6.6 P6.7 P6.8 P6.9 P6.10"/>
+<connect gate="G$2" pin="P$1" pad="P7.1 P7.2 P7.3 P7.4 P7.5 P7.6 P7.7 P7.8 P7.9 P7.10"/>
+<connect gate="G$2" pin="P$2" pad="P8.1 P8.2 P8.3 P8.4 P8.5 P8.6 P8.7 P8.8 P8.9 P8.10"/>
+<connect gate="G$2" pin="P$3" pad="P9.1 P9.2 P9.3 P9.4 P9.5 P9.6 P9.7 P9.8 P9.9 P9.10"/>
+<connect gate="G$2" pin="P$4" pad="P10.1 P10.2 P10.3 P10.4 P10.5 P10.6 P10.7 P10.8 P10.9 P10.10"/>
+<connect gate="G$2" pin="P$5" pad="P11.1 P11.2 P11.3 P11.4 P11.5 P11.6 P11.7 P11.8 P11.9 P11.10"/>
+<connect gate="G$2" pin="P$6" pad="P12.1 P12.2 P12.3 P12.4 P12.5 P12.6 P12.7 P12.8 P12.9 P12.10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-S24-S24-P4-RA">
+<gates>
+<gate name="G$1" symbol="TEN60-4-PWR" x="5.08" y="22.86"/>
+<gate name="G$2" symbol="TEN60-8-SIG" x="5.08" y="-2.54"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="25.4" y="-2.54"/>
+<gate name="G$4" symbol="TEN60-8-SIG" x="45.72" y="-2.54"/>
+<gate name="G$5" symbol="TEN60-8-SIG" x="5.08" y="-35.56"/>
+<gate name="G$6" symbol="TEN60-8-SIG" x="25.4" y="-35.56"/>
+<gate name="G$7" symbol="TEN60-8-SIG" x="45.72" y="-35.56"/>
+</gates>
+<devices>
+<device name="" package="TEN60-S24-S24-P4-RA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8 P1.9 P1.10"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8 P2.9 P2.10"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8 P3.9 P3.10"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8 P4.9 P4.10"/>
+<connect gate="G$2" pin="P$1" pad="S1"/>
+<connect gate="G$2" pin="P$2" pad="S2"/>
+<connect gate="G$2" pin="P$3" pad="S3"/>
+<connect gate="G$2" pin="P$4" pad="S4"/>
+<connect gate="G$2" pin="P$5" pad="S5"/>
+<connect gate="G$2" pin="P$6" pad="S6"/>
+<connect gate="G$2" pin="P$7" pad="S7"/>
+<connect gate="G$2" pin="P$8" pad="S8"/>
+<connect gate="G$3" pin="P$1" pad="S9"/>
+<connect gate="G$3" pin="P$2" pad="S10"/>
+<connect gate="G$3" pin="P$3" pad="S11"/>
+<connect gate="G$3" pin="P$4" pad="S12"/>
+<connect gate="G$3" pin="P$5" pad="S13"/>
+<connect gate="G$3" pin="P$6" pad="S14"/>
+<connect gate="G$3" pin="P$7" pad="S15"/>
+<connect gate="G$3" pin="P$8" pad="S16"/>
+<connect gate="G$4" pin="P$1" pad="S17"/>
+<connect gate="G$4" pin="P$2" pad="S18"/>
+<connect gate="G$4" pin="P$3" pad="S19"/>
+<connect gate="G$4" pin="P$4" pad="S20"/>
+<connect gate="G$4" pin="P$5" pad="S21"/>
+<connect gate="G$4" pin="P$6" pad="S22"/>
+<connect gate="G$4" pin="P$7" pad="S23"/>
+<connect gate="G$4" pin="P$8" pad="S24"/>
+<connect gate="G$5" pin="P$1" pad="S25"/>
+<connect gate="G$5" pin="P$2" pad="S26"/>
+<connect gate="G$5" pin="P$3" pad="S27"/>
+<connect gate="G$5" pin="P$4" pad="S28"/>
+<connect gate="G$5" pin="P$5" pad="S29"/>
+<connect gate="G$5" pin="P$6" pad="S30"/>
+<connect gate="G$5" pin="P$7" pad="S31"/>
+<connect gate="G$5" pin="P$8" pad="S32"/>
+<connect gate="G$6" pin="P$1" pad="S33"/>
+<connect gate="G$6" pin="P$2" pad="S34"/>
+<connect gate="G$6" pin="P$3" pad="S35"/>
+<connect gate="G$6" pin="P$4" pad="S36"/>
+<connect gate="G$6" pin="P$5" pad="S37"/>
+<connect gate="G$6" pin="P$6" pad="S38"/>
+<connect gate="G$6" pin="P$7" pad="S39"/>
+<connect gate="G$6" pin="P$8" pad="S40"/>
+<connect gate="G$7" pin="P$1" pad="S41"/>
+<connect gate="G$7" pin="P$2" pad="S42"/>
+<connect gate="G$7" pin="P$3" pad="S43"/>
+<connect gate="G$7" pin="P$4" pad="S44"/>
+<connect gate="G$7" pin="P$5" pad="S45"/>
+<connect gate="G$7" pin="P$6" pad="S46"/>
+<connect gate="G$7" pin="P$7" pad="S47"/>
+<connect gate="G$7" pin="P$8" pad="S48"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-P6-P6-VERT">
+<gates>
+<gate name="G$1" symbol="TEN60-6-PWR" x="2.54" y="15.24"/>
+<gate name="G$2" symbol="TEN60-6-PWR" x="25.4" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="TEN60-P6-P6-VERT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8"/>
+<connect gate="G$1" pin="P$5" pad="P5.1 P5.2 P5.3 P5.4 P5.5 P5.6 P5.7 P5.8"/>
+<connect gate="G$1" pin="P$6" pad="P6.1 P6.2 P6.3 P6.4 P6.5 P6.6 P6.7 P6.8"/>
+<connect gate="G$2" pin="P$1" pad="P7.1 P7.2 P7.3 P7.4 P7.5 P7.6 P7.7 P7.8"/>
+<connect gate="G$2" pin="P$2" pad="P8.1 P8.2 P8.3 P8.4 P8.5 P8.6 P8.7 P8.8"/>
+<connect gate="G$2" pin="P$3" pad="P9.1 P9.2 P9.3 P9.4 P9.5 P9.6 P9.7 P9.8"/>
+<connect gate="G$2" pin="P$4" pad="P10.1 P10.2 P10.3 P10.4 P10.5 P10.6 P10.7 P10.8"/>
+<connect gate="G$2" pin="P$5" pad="P11.1 P11.2 P11.3 P11.4 P11.5 P11.6 P11.7 P11.8"/>
+<connect gate="G$2" pin="P$6" pad="P12.1 P12.2 P12.3 P12.4 P12.5 P12.6 P12.7 P12.8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-S24-P6-VERT">
+<gates>
+<gate name="G$1" symbol="TEN60-6-PWR" x="2.54" y="17.78"/>
+<gate name="G$2" symbol="TEN60-8-SIG" x="5.08" y="-17.78"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="22.86" y="-17.78"/>
+<gate name="G$4" symbol="TEN60-8-SIG" x="40.64" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="TEN60-S24-P6-VERT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8"/>
+<connect gate="G$1" pin="P$5" pad="P5.1 P5.2 P5.3 P5.4 P5.5 P5.6 P5.7 P5.8"/>
+<connect gate="G$1" pin="P$6" pad="P6.1 P6.2 P6.3 P6.4 P6.5 P6.6 P6.7 P6.8"/>
+<connect gate="G$2" pin="P$1" pad="S1"/>
+<connect gate="G$2" pin="P$2" pad="S2"/>
+<connect gate="G$2" pin="P$3" pad="S3"/>
+<connect gate="G$2" pin="P$4" pad="S4"/>
+<connect gate="G$2" pin="P$5" pad="S5"/>
+<connect gate="G$2" pin="P$6" pad="S6"/>
+<connect gate="G$2" pin="P$7" pad="S7"/>
+<connect gate="G$2" pin="P$8" pad="S8"/>
+<connect gate="G$3" pin="P$1" pad="S9"/>
+<connect gate="G$3" pin="P$2" pad="S10"/>
+<connect gate="G$3" pin="P$3" pad="S11"/>
+<connect gate="G$3" pin="P$4" pad="S12"/>
+<connect gate="G$3" pin="P$5" pad="S13"/>
+<connect gate="G$3" pin="P$6" pad="S14"/>
+<connect gate="G$3" pin="P$7" pad="S15"/>
+<connect gate="G$3" pin="P$8" pad="S16"/>
+<connect gate="G$4" pin="P$1" pad="S17"/>
+<connect gate="G$4" pin="P$2" pad="S18"/>
+<connect gate="G$4" pin="P$3" pad="S19"/>
+<connect gate="G$4" pin="P$4" pad="S20"/>
+<connect gate="G$4" pin="P$5" pad="S21"/>
+<connect gate="G$4" pin="P$6" pad="S22"/>
+<connect gate="G$4" pin="P$7" pad="S23"/>
+<connect gate="G$4" pin="P$8" pad="S24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-S24-RA">
+<gates>
+<gate name="G$1" symbol="TEN60-8-SIG" x="5.08" y="15.24"/>
+<gate name="G$2" symbol="TEN60-8-SIG" x="25.4" y="15.24"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="45.72" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="TEN60-S24-RA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="S1"/>
+<connect gate="G$1" pin="P$2" pad="S2"/>
+<connect gate="G$1" pin="P$3" pad="S3"/>
+<connect gate="G$1" pin="P$4" pad="S4"/>
+<connect gate="G$1" pin="P$5" pad="S5"/>
+<connect gate="G$1" pin="P$6" pad="S6"/>
+<connect gate="G$1" pin="P$7" pad="S7"/>
+<connect gate="G$1" pin="P$8" pad="S8"/>
+<connect gate="G$2" pin="P$1" pad="S9"/>
+<connect gate="G$2" pin="P$2" pad="S10"/>
+<connect gate="G$2" pin="P$3" pad="S11"/>
+<connect gate="G$2" pin="P$4" pad="S12"/>
+<connect gate="G$2" pin="P$5" pad="S13"/>
+<connect gate="G$2" pin="P$6" pad="S14"/>
+<connect gate="G$2" pin="P$7" pad="S15"/>
+<connect gate="G$2" pin="P$8" pad="S16"/>
+<connect gate="G$3" pin="P$1" pad="S17"/>
+<connect gate="G$3" pin="P$2" pad="S18"/>
+<connect gate="G$3" pin="P$3" pad="S19"/>
+<connect gate="G$3" pin="P$4" pad="S20"/>
+<connect gate="G$3" pin="P$5" pad="S21"/>
+<connect gate="G$3" pin="P$6" pad="S22"/>
+<connect gate="G$3" pin="P$7" pad="S23"/>
+<connect gate="G$3" pin="P$8" pad="S24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-S24-S24-P4-VERT">
+<gates>
+<gate name="G$1" symbol="TEN60-4-PWR" x="5.08" y="30.48"/>
+<gate name="G$2" symbol="TEN60-8-SIG" x="5.08" y="10.16"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="22.86" y="10.16"/>
+<gate name="G$4" symbol="TEN60-8-SIG" x="43.18" y="10.16"/>
+<gate name="G$5" symbol="TEN60-8-SIG" x="5.08" y="-20.32"/>
+<gate name="G$6" symbol="TEN60-8-SIG" x="22.86" y="-20.32"/>
+<gate name="G$7" symbol="TEN60-8-SIG" x="43.18" y="-20.32"/>
+</gates>
+<devices>
+<device name="" package="TEN60-S24-S24-P4-VERT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8"/>
+<connect gate="G$2" pin="P$1" pad="S1"/>
+<connect gate="G$2" pin="P$2" pad="S2"/>
+<connect gate="G$2" pin="P$3" pad="S3"/>
+<connect gate="G$2" pin="P$4" pad="S4"/>
+<connect gate="G$2" pin="P$5" pad="S5"/>
+<connect gate="G$2" pin="P$6" pad="S6"/>
+<connect gate="G$2" pin="P$7" pad="S7"/>
+<connect gate="G$2" pin="P$8" pad="S8"/>
+<connect gate="G$3" pin="P$1" pad="S9"/>
+<connect gate="G$3" pin="P$2" pad="S10"/>
+<connect gate="G$3" pin="P$3" pad="S11"/>
+<connect gate="G$3" pin="P$4" pad="S12"/>
+<connect gate="G$3" pin="P$5" pad="S13"/>
+<connect gate="G$3" pin="P$6" pad="S14"/>
+<connect gate="G$3" pin="P$7" pad="S15"/>
+<connect gate="G$3" pin="P$8" pad="S16"/>
+<connect gate="G$4" pin="P$1" pad="S17"/>
+<connect gate="G$4" pin="P$2" pad="S18"/>
+<connect gate="G$4" pin="P$3" pad="S19"/>
+<connect gate="G$4" pin="P$4" pad="S20"/>
+<connect gate="G$4" pin="P$5" pad="S21"/>
+<connect gate="G$4" pin="P$6" pad="S22"/>
+<connect gate="G$4" pin="P$7" pad="S23"/>
+<connect gate="G$4" pin="P$8" pad="S24"/>
+<connect gate="G$5" pin="P$1" pad="S25"/>
+<connect gate="G$5" pin="P$2" pad="S26"/>
+<connect gate="G$5" pin="P$3" pad="S27"/>
+<connect gate="G$5" pin="P$4" pad="S28"/>
+<connect gate="G$5" pin="P$5" pad="S29"/>
+<connect gate="G$5" pin="P$6" pad="S30"/>
+<connect gate="G$5" pin="P$7" pad="S31"/>
+<connect gate="G$5" pin="P$8" pad="S32"/>
+<connect gate="G$6" pin="P$1" pad="S33"/>
+<connect gate="G$6" pin="P$2" pad="S34"/>
+<connect gate="G$6" pin="P$3" pad="S35"/>
+<connect gate="G$6" pin="P$4" pad="S36"/>
+<connect gate="G$6" pin="P$5" pad="S37"/>
+<connect gate="G$6" pin="P$6" pad="S38"/>
+<connect gate="G$6" pin="P$7" pad="S39"/>
+<connect gate="G$6" pin="P$8" pad="S40"/>
+<connect gate="G$7" pin="P$1" pad="S41"/>
+<connect gate="G$7" pin="P$2" pad="S42"/>
+<connect gate="G$7" pin="P$3" pad="S43"/>
+<connect gate="G$7" pin="P$4" pad="S44"/>
+<connect gate="G$7" pin="P$5" pad="S45"/>
+<connect gate="G$7" pin="P$6" pad="S46"/>
+<connect gate="G$7" pin="P$7" pad="S47"/>
+<connect gate="G$7" pin="P$8" pad="S48"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-S24-VERT">
+<gates>
+<gate name="G$1" symbol="TEN60-8-SIG" x="5.08" y="10.16"/>
+<gate name="G$2" symbol="TEN60-8-SIG" x="22.86" y="10.16"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="43.18" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="TEN60-S24-VERT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="S1"/>
+<connect gate="G$1" pin="P$2" pad="S2"/>
+<connect gate="G$1" pin="P$3" pad="S3"/>
+<connect gate="G$1" pin="P$4" pad="S4"/>
+<connect gate="G$1" pin="P$5" pad="S5"/>
+<connect gate="G$1" pin="P$6" pad="S6"/>
+<connect gate="G$1" pin="P$7" pad="S7"/>
+<connect gate="G$1" pin="P$8" pad="S8"/>
+<connect gate="G$2" pin="P$1" pad="S9"/>
+<connect gate="G$2" pin="P$2" pad="S10"/>
+<connect gate="G$2" pin="P$3" pad="S11"/>
+<connect gate="G$2" pin="P$4" pad="S12"/>
+<connect gate="G$2" pin="P$5" pad="S13"/>
+<connect gate="G$2" pin="P$6" pad="S14"/>
+<connect gate="G$2" pin="P$7" pad="S15"/>
+<connect gate="G$2" pin="P$8" pad="S16"/>
+<connect gate="G$3" pin="P$1" pad="S17"/>
+<connect gate="G$3" pin="P$2" pad="S18"/>
+<connect gate="G$3" pin="P$3" pad="S19"/>
+<connect gate="G$3" pin="P$4" pad="S20"/>
+<connect gate="G$3" pin="P$5" pad="S21"/>
+<connect gate="G$3" pin="P$6" pad="S22"/>
+<connect gate="G$3" pin="P$7" pad="S23"/>
+<connect gate="G$3" pin="P$8" pad="S24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-P6-S24-S24-P6-RA">
+<gates>
+<gate name="G$1" symbol="TEN60-6-PWR" x="2.54" y="12.7"/>
+<gate name="G$2" symbol="TEN60-6-PWR" x="22.86" y="12.7"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="5.08" y="-17.78"/>
+<gate name="G$4" symbol="TEN60-8-SIG" x="25.4" y="-17.78"/>
+<gate name="G$5" symbol="TEN60-8-SIG" x="45.72" y="-17.78"/>
+<gate name="G$6" symbol="TEN60-8-SIG" x="5.08" y="-48.26"/>
+<gate name="G$7" symbol="TEN60-8-SIG" x="25.4" y="-48.26"/>
+<gate name="G$8" symbol="TEN60-8-SIG" x="45.72" y="-48.26"/>
+</gates>
+<devices>
+<device name="" package="TEN60-P6-S24-S24-P6-RA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8 P1.9 P1.10"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8 P2.9 P2.10"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8 P3.9 P3.10"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8 P4.9 P4.10"/>
+<connect gate="G$1" pin="P$5" pad="P5.1 P5.2 P5.3 P5.4 P5.5 P5.6 P5.7 P5.8 P5.9 P5.10"/>
+<connect gate="G$1" pin="P$6" pad="P6.1 P6.2 P6.3 P6.4 P6.5 P6.6 P6.7 P6.8 P6.9 P6.10"/>
+<connect gate="G$2" pin="P$1" pad="P7.1 P7.2 P7.3 P7.4 P7.5 P7.6 P7.7 P7.8 P7.9 P7.10"/>
+<connect gate="G$2" pin="P$2" pad="P8.1 P8.2 P8.3 P8.4 P8.5 P8.6 P8.7 P8.8 P8.9 P8.10"/>
+<connect gate="G$2" pin="P$3" pad="P9.1 P9.2 P9.3 P9.4 P9.5 P9.6 P9.7 P9.8 P9.9 P9.10"/>
+<connect gate="G$2" pin="P$4" pad="P10.1 P10.2 P10.3 P10.4 P10.5 P10.6 P10.7 P10.8 P10.9 P10.10"/>
+<connect gate="G$2" pin="P$5" pad="P11.1 P11.2 P11.3 P11.4 P11.5 P11.6 P11.7 P11.8 P11.9 P11.10"/>
+<connect gate="G$2" pin="P$6" pad="P12.1 P12.2 P12.3 P12.4 P12.5 P12.6 P12.7 P12.8 P12.9 P12.10"/>
+<connect gate="G$3" pin="P$1" pad="S1"/>
+<connect gate="G$3" pin="P$2" pad="S2"/>
+<connect gate="G$3" pin="P$3" pad="S3"/>
+<connect gate="G$3" pin="P$4" pad="S4"/>
+<connect gate="G$3" pin="P$5" pad="S5"/>
+<connect gate="G$3" pin="P$6" pad="S6"/>
+<connect gate="G$3" pin="P$7" pad="S7"/>
+<connect gate="G$3" pin="P$8" pad="S8"/>
+<connect gate="G$4" pin="P$1" pad="S9"/>
+<connect gate="G$4" pin="P$2" pad="S10"/>
+<connect gate="G$4" pin="P$3" pad="S11"/>
+<connect gate="G$4" pin="P$4" pad="S12"/>
+<connect gate="G$4" pin="P$5" pad="S13"/>
+<connect gate="G$4" pin="P$6" pad="S14"/>
+<connect gate="G$4" pin="P$7" pad="S15"/>
+<connect gate="G$4" pin="P$8" pad="S16"/>
+<connect gate="G$5" pin="P$1" pad="S17"/>
+<connect gate="G$5" pin="P$2" pad="S18"/>
+<connect gate="G$5" pin="P$3" pad="S19"/>
+<connect gate="G$5" pin="P$4" pad="S20"/>
+<connect gate="G$5" pin="P$5" pad="S21"/>
+<connect gate="G$5" pin="P$6" pad="S22"/>
+<connect gate="G$5" pin="P$7" pad="S23"/>
+<connect gate="G$5" pin="P$8" pad="S24"/>
+<connect gate="G$6" pin="P$1" pad="S25"/>
+<connect gate="G$6" pin="P$2" pad="S26"/>
+<connect gate="G$6" pin="P$3" pad="S27"/>
+<connect gate="G$6" pin="P$4" pad="S28"/>
+<connect gate="G$6" pin="P$5" pad="S29"/>
+<connect gate="G$6" pin="P$6" pad="S30"/>
+<connect gate="G$6" pin="P$7" pad="S31"/>
+<connect gate="G$6" pin="P$8" pad="S32"/>
+<connect gate="G$7" pin="P$1" pad="S33"/>
+<connect gate="G$7" pin="P$2" pad="S34"/>
+<connect gate="G$7" pin="P$3" pad="S35"/>
+<connect gate="G$7" pin="P$4" pad="S36"/>
+<connect gate="G$7" pin="P$5" pad="S37"/>
+<connect gate="G$7" pin="P$6" pad="S38"/>
+<connect gate="G$7" pin="P$7" pad="S39"/>
+<connect gate="G$7" pin="P$8" pad="S40"/>
+<connect gate="G$8" pin="P$1" pad="S41"/>
+<connect gate="G$8" pin="P$2" pad="S42"/>
+<connect gate="G$8" pin="P$3" pad="S43"/>
+<connect gate="G$8" pin="P$4" pad="S44"/>
+<connect gate="G$8" pin="P$5" pad="S45"/>
+<connect gate="G$8" pin="P$6" pad="S46"/>
+<connect gate="G$8" pin="P$7" pad="S47"/>
+<connect gate="G$8" pin="P$8" pad="S48"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MEGA-FIT-8">
+<gates>
+<gate name="G$1" symbol="MEGA-FIT-8" x="10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="MEGA-FIT-8">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1 P2 P5 P6"/>
+<connect gate="G$1" pin="P$2" pad="P3 P4 P7 P8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEN60-P6-S24-S24-P6-VERT">
+<gates>
+<gate name="G$1" symbol="TEN60-6-PWR" x="2.54" y="17.78"/>
+<gate name="G$2" symbol="TEN60-6-PWR" x="22.86" y="17.78"/>
+<gate name="G$3" symbol="TEN60-8-SIG" x="5.08" y="-17.78"/>
+<gate name="G$4" symbol="TEN60-8-SIG" x="25.4" y="-17.78"/>
+<gate name="G$5" symbol="TEN60-8-SIG" x="48.26" y="-17.78"/>
+<gate name="G$6" symbol="TEN60-8-SIG" x="5.08" y="-50.8"/>
+<gate name="G$7" symbol="TEN60-8-SIG" x="25.4" y="-50.8"/>
+<gate name="G$8" symbol="TEN60-8-SIG" x="48.26" y="-50.8"/>
+</gates>
+<devices>
+<device name="" package="TEN60-P6-S24-S24-P6-VERT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1.1 P1.2 P1.3 P1.4 P1.5 P1.6 P1.7 P1.8"/>
+<connect gate="G$1" pin="P$2" pad="P2.1 P2.2 P2.3 P2.4 P2.5 P2.6 P2.7 P2.8"/>
+<connect gate="G$1" pin="P$3" pad="P3.1 P3.2 P3.3 P3.4 P3.5 P3.6 P3.7 P3.8"/>
+<connect gate="G$1" pin="P$4" pad="P4.1 P4.2 P4.3 P4.4 P4.5 P4.6 P4.7 P4.8"/>
+<connect gate="G$1" pin="P$5" pad="P5.1 P5.2 P5.3 P5.4 P5.5 P5.6 P5.7 P5.8"/>
+<connect gate="G$1" pin="P$6" pad="P6.1 P6.2 P6.3 P6.4 P6.5 P6.6 P6.7 P6.8"/>
+<connect gate="G$2" pin="P$1" pad="P7.1 P7.2 P7.3 P7.4 P7.5 P7.6 P7.7 P7.8"/>
+<connect gate="G$2" pin="P$2" pad="P8.1 P8.2 P8.3 P8.4 P8.5 P8.6 P8.7 P8.8"/>
+<connect gate="G$2" pin="P$3" pad="P9.1 P9.2 P9.3 P9.4 P9.5 P9.6 P9.7 P9.8"/>
+<connect gate="G$2" pin="P$4" pad="P10.1 P10.2 P10.3 P10.4 P10.5 P10.6 P10.7 P10.8"/>
+<connect gate="G$2" pin="P$5" pad="P11.1 P11.2 P11.3 P11.4 P11.5 P11.6 P11.7 P11.8"/>
+<connect gate="G$2" pin="P$6" pad="P12.1 P12.2 P12.3 P12.4 P12.5 P12.6 P12.7 P12.8"/>
+<connect gate="G$3" pin="P$1" pad="S1"/>
+<connect gate="G$3" pin="P$2" pad="S2"/>
+<connect gate="G$3" pin="P$3" pad="S3"/>
+<connect gate="G$3" pin="P$4" pad="S4"/>
+<connect gate="G$3" pin="P$5" pad="S5"/>
+<connect gate="G$3" pin="P$6" pad="S6"/>
+<connect gate="G$3" pin="P$7" pad="S7"/>
+<connect gate="G$3" pin="P$8" pad="S8"/>
+<connect gate="G$4" pin="P$1" pad="S9"/>
+<connect gate="G$4" pin="P$2" pad="S10"/>
+<connect gate="G$4" pin="P$3" pad="S11"/>
+<connect gate="G$4" pin="P$4" pad="S12"/>
+<connect gate="G$4" pin="P$5" pad="S13"/>
+<connect gate="G$4" pin="P$6" pad="S14"/>
+<connect gate="G$4" pin="P$7" pad="S15"/>
+<connect gate="G$4" pin="P$8" pad="S16"/>
+<connect gate="G$5" pin="P$1" pad="S17"/>
+<connect gate="G$5" pin="P$2" pad="S18"/>
+<connect gate="G$5" pin="P$3" pad="S19"/>
+<connect gate="G$5" pin="P$4" pad="S20"/>
+<connect gate="G$5" pin="P$5" pad="S21"/>
+<connect gate="G$5" pin="P$6" pad="S22"/>
+<connect gate="G$5" pin="P$7" pad="S23"/>
+<connect gate="G$5" pin="P$8" pad="S24"/>
+<connect gate="G$6" pin="P$1" pad="S25"/>
+<connect gate="G$6" pin="P$2" pad="S26"/>
+<connect gate="G$6" pin="P$3" pad="S27"/>
+<connect gate="G$6" pin="P$4" pad="S28"/>
+<connect gate="G$6" pin="P$5" pad="S29"/>
+<connect gate="G$6" pin="P$6" pad="S30"/>
+<connect gate="G$6" pin="P$7" pad="S31"/>
+<connect gate="G$6" pin="P$8" pad="S32"/>
+<connect gate="G$7" pin="P$1" pad="S33"/>
+<connect gate="G$7" pin="P$2" pad="S34"/>
+<connect gate="G$7" pin="P$3" pad="S35"/>
+<connect gate="G$7" pin="P$4" pad="S36"/>
+<connect gate="G$7" pin="P$5" pad="S37"/>
+<connect gate="G$7" pin="P$6" pad="S38"/>
+<connect gate="G$7" pin="P$7" pad="S39"/>
+<connect gate="G$7" pin="P$8" pad="S40"/>
+<connect gate="G$8" pin="P$1" pad="S41"/>
+<connect gate="G$8" pin="P$2" pad="S42"/>
+<connect gate="G$8" pin="P$3" pad="S43"/>
+<connect gate="G$8" pin="P$4" pad="S44"/>
+<connect gate="G$8" pin="P$5" pad="S45"/>
+<connect gate="G$8" pin="P$6" pad="S46"/>
+<connect gate="G$8" pin="P$7" pad="S47"/>
+<connect gate="G$8" pin="P$8" pad="S48"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
