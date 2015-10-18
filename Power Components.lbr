@@ -72,6 +72,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 <layer number="100" name="Mechanical" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Gehäuse" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Mittellin" color="7" fill="1" visible="yes" active="yes"/>
@@ -217,6 +218,29 @@
 <wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
 <wire x1="1.95" y1="2.45" x2="-1.95" y2="2.45" width="0.127" layer="51"/>
 </package>
+<package name="VSSOP-10">
+<smd name="10" x="-1.000759375" y="2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="9" x="-0.50038125" y="2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="8" x="0" y="2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="7" x="0.50038125" y="2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="6" x="1.000759375" y="2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="1" x="-1.000759375" y="-2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="2" x="-0.50038125" y="-2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="3" x="0" y="-2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="4" x="0.50038125" y="-2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="5" x="1.000759375" y="-2.4003" dx="0.3048" dy="1.016" layer="1" rot="R180"/>
+<smd name="DAP" x="0" y="0" dx="1.7272" dy="1.905" layer="1" rot="R90"/>
+<wire x1="-1.4986" y1="1.4986" x2="1.4986" y2="1.4986" width="0.127" layer="51"/>
+<wire x1="1.4986" y1="1.4986" x2="1.4986" y2="-1.4986" width="0.127" layer="51"/>
+<wire x1="1.4986" y1="-1.4986" x2="-1.4986" y2="-1.4986" width="0.127" layer="51"/>
+<wire x1="-1.4986" y1="-1.4986" x2="-1.4986" y2="1.4986" width="0.127" layer="51"/>
+<text x="-3.175" y="3.81" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.175" y="-5.08" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="-1.4732" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.254" layer="21"/>
+<wire x1="1.4986" y1="-1.4986" x2="1.4986" y2="1.4986" width="0.254" layer="21"/>
+<wire x1="1.4986" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.254" layer="21"/>
+<wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.4986" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSEHOLDER3557-2">
@@ -303,6 +327,33 @@
 <pin name="GND" x="15.24" y="-10.16" length="middle" rot="R180"/>
 <text x="-5.08" y="0" size="1.778" layer="95">ACS711</text>
 <text x="-7.62" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LM3409HV">
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="UVLO" x="-15.24" y="10.16" length="middle"/>
+<pin name="IADJ" x="-15.24" y="5.08" length="middle"/>
+<pin name="EN" x="-15.24" y="0" length="middle"/>
+<pin name="COFF" x="-15.24" y="-5.08" length="middle"/>
+<pin name="GND" x="-15.24" y="-10.16" length="middle"/>
+<pin name="VIN" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="CSP" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="CSN" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="PGATE" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<text x="-9.906" y="13.716" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="5.08" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<pin name="DAP" x="0" y="-17.78" visible="pad" length="middle" rot="R90"/>
+<text x="0.762" y="-16.256" size="1.778" layer="95">DAP</text>
+<text x="-15.24" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -432,6 +483,31 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <connect gate="G$1" pin="IP-" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VIOUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM3409HV" prefix="U">
+<gates>
+<gate name="G$1" symbol="LM3409HV" x="17.78" y="-17.78"/>
+</gates>
+<devices>
+<device name="'LM3409HV'" package="VSSOP-10">
+<connects>
+<connect gate="G$1" pin="COFF" pad="4"/>
+<connect gate="G$1" pin="CSN" pad="7"/>
+<connect gate="G$1" pin="CSP" pad="8"/>
+<connect gate="G$1" pin="DAP" pad="DAP"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="IADJ" pad="2"/>
+<connect gate="G$1" pin="PGATE" pad="6"/>
+<connect gate="G$1" pin="UVLO" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="VIN" pad="10"/>
 </connects>
 <technologies>
 <technology name=""/>
