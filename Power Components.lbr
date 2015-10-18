@@ -167,19 +167,6 @@
 <wire x1="0" y1="0" x2="0" y2="22.7584" width="0.127" layer="21"/>
 <wire x1="58.42" y1="22.7584" x2="58.42" y2="0" width="0.127" layer="21"/>
 </package>
-<package name="CAP_10.3^2">
-<smd name="P$1" x="0" y="-4.05" dx="1" dy="3.5" layer="1"/>
-<smd name="P$2" x="0" y="4.05" dx="1" dy="3.5" layer="1"/>
-<wire x1="-5.15" y1="5.15" x2="5.15" y2="5.15" width="0.127" layer="21"/>
-<wire x1="5.15" y1="5.15" x2="5.15" y2="-4" width="0.127" layer="21"/>
-<wire x1="-5.15" y1="5.15" x2="-5.15" y2="-4" width="0.127" layer="21"/>
-<wire x1="-4" y1="-5.15" x2="4" y2="-5.15" width="0.127" layer="21"/>
-<wire x1="-5.15" y1="-4" x2="-4" y2="-5.15" width="0.127" layer="21"/>
-<wire x1="4" y1="-5.15" x2="5.15" y2="-4" width="0.127" layer="21"/>
-<wire x1="3" y1="-2" x2="3" y2="-4" width="0.127" layer="21"/>
-<wire x1="2" y1="-3" x2="4" y2="-3" width="0.127" layer="21"/>
-<wire x1="2" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
-</package>
 <package name="THIND">
 <pad name="1" x="-14" y="6.5" drill="3.2"/>
 <pad name="2" x="14" y="-6.5" drill="3.2"/>
@@ -216,6 +203,20 @@
 <smd name="1" x="8.3312" y="-2.54" dx="2.286" dy="0.762" layer="1"/>
 <smd name="6" x="8.3312" y="-3.81" dx="2.286" dy="0.762" layer="1"/>
 </package>
+<package name="SOIC8">
+<smd name="1" x="-2.8" y="1.905" dx="1.75" dy="0.65" layer="1"/>
+<smd name="2" x="-2.8" y="0.635" dx="1.75" dy="0.65" layer="1"/>
+<smd name="3" x="-2.8" y="-0.635" dx="1.75" dy="0.65" layer="1" rot="R180"/>
+<smd name="4" x="-2.8" y="-1.905" dx="1.75" dy="0.65" layer="1" rot="R180"/>
+<smd name="5" x="2.8" y="-1.905" dx="1.75" dy="0.65" layer="1"/>
+<smd name="6" x="2.8" y="-0.635" dx="1.75" dy="0.65" layer="1"/>
+<smd name="8" x="2.8" y="1.905" dx="1.75" dy="0.65" layer="1"/>
+<smd name="7" x="2.8" y="0.635" dx="1.75" dy="0.65" layer="1"/>
+<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="-1.95" y2="2.45" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSEHOLDER3557-2">
@@ -234,14 +235,6 @@
 <wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-<symbol name="CAP_10.3^2">
-<pin name="P$1" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="P$2" x="-5.08" y="0" visible="off" length="middle"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.8128" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.8128" layer="94" curve="-110"/>
-<text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="L-US">
 <wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
@@ -295,6 +288,22 @@
 <text x="-15.24" y="11.176" size="1.778" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
+<symbol name="ACS711">
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="IP+" x="-15.24" y="7.62" length="middle"/>
+<pin name="2IP+" x="-15.24" y="5.08" length="middle"/>
+<pin name="IP-" x="-15.24" y="-5.08" length="middle"/>
+<pin name="2IP-" x="-15.24" y="-7.62" length="middle"/>
+<pin name="VCC" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="VIOUT" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="!FAULT" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<text x="-5.08" y="0" size="1.778" layer="95">ACS711</text>
+<text x="-7.62" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FUSEHOLDER3557-2">
@@ -325,22 +334,6 @@
 <connect gate="G$1" pin="NC2" pad="5"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAP_10.3">
-<gates>
-<gate name="G$1" symbol="CAP_10.3^2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAP_10.3^2">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -417,6 +410,28 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <connect gate="G$1" pin="ON/OFF" pad="2"/>
 <connect gate="G$1" pin="SWITCH_OUTPUT" pad="6"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS711" prefix="U">
+<gates>
+<gate name="G$1" symbol="ACS711" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC8">
+<connects>
+<connect gate="G$1" pin="!FAULT" pad="6"/>
+<connect gate="G$1" pin="2IP+" pad="2"/>
+<connect gate="G$1" pin="2IP-" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="IP+" pad="1"/>
+<connect gate="G$1" pin="IP-" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VIOUT" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
