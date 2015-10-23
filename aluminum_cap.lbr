@@ -115,7 +115,7 @@ Dimension:8.00mm&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-ALUMINUM" prefix="C" uservalue="yes">
+<deviceset name="C-ALUMINUM(330UF)" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CPOL-US" x="-27.94" y="0"/>
 </gates>
