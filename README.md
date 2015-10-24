@@ -1,8 +1,7 @@
 # PCB-Libraries
-Contains all of our libraries for our PCBs
+Contains all of our part libraries for our PCBs
 
-Note: This will likely be the repository where all electrical parts for ROV will be stored.
-Nick will be cleaning up the library a little bit. Only parts that are done should be here. 
-Additionally, all ROV boards should only use parts from this library (add if needed).
+ROV boards should only use parts from this library. If you need a part that is not here feel free
+to fork the repository, make it, and then submit a pull request for it to be added. 
 
-stuff will be added here!
+This repository is still currently being reviewed and the libraries are being consolidated. 
