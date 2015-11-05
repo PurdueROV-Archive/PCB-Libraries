@@ -8,3 +8,5 @@ This repository is still currently being reviewed and the libraries are being co
 
 Make sure you branch, make changes in your branch by committing, and then pull request back in to merge your changes.  
 View the Drive for more information
+
+updating readme to learn stuff
