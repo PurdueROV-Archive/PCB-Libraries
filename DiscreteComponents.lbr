@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3867,6 +3867,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.127" layer="21"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
 </package>
+<package name="HCMA1305">
+<smd name="P$1" x="0" y="5.5" dx="3.3" dy="4.9" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="-5.5" dx="3.3" dy="4.9" layer="1" rot="R90"/>
+<wire x1="-6.1" y1="6.65" x2="6.1" y2="6.65" width="0.127" layer="21"/>
+<wire x1="6.1" y1="6.65" x2="6.1" y2="-6.65" width="0.127" layer="21"/>
+<wire x1="6.1" y1="-6.65" x2="-6.1" y2="-6.65" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-6.65" x2="-6.1" y2="6.65" width="0.127" layer="21"/>
+<text x="-6.35" y="7.62" size="1.27" layer="21">&gt;NAME</text>
+<text x="-6.35" y="-8.89" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FAN5109B">
@@ -6133,6 +6143,22 @@ http://www.ussensor.com/sites/default/files/downloads/TO502J2J.pdf</description>
 <connects>
 <connect gate="-" pin="A" pad="P$1"/>
 <connect gate="-" pin="C" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HCMA1305">
+<gates>
+<gate name="G$1" symbol="INDUCTOR-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HCMA1305">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
