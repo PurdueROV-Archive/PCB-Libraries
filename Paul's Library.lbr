@@ -66,22 +66,22 @@
 <wire x1="-12.7" y1="19.685" x2="6.35" y2="19.685" width="0.127" layer="51"/>
 <wire x1="6.35" y1="19.685" x2="6.35" y2="-1.905" width="0.127" layer="51"/>
 <wire x1="6.35" y1="-1.905" x2="-12.7" y2="-1.905" width="0.127" layer="51"/>
+<pad name="7" x="-6.35" y="2.54" drill="0.889" diameter="1.016"/>
+<pad name="6" x="-5.08" y="0" drill="0.889" diameter="1.016"/>
+<pad name="5" x="-3.81" y="2.54" drill="0.889" diameter="1.016"/>
+<pad name="8" x="-7.62" y="0" drill="0.889" diameter="1.016"/>
+<pad name="2" x="0" y="0" drill="0.889" diameter="1.016"/>
+<pad name="1" x="1.27" y="2.54" drill="0.889" diameter="1.016"/>
+<pad name="3" x="-1.27" y="2.54" drill="0.889" diameter="1.016"/>
+<pad name="4" x="-2.54" y="0" drill="0.889" diameter="1.016"/>
+<pad name="16" x="-11.049" y="5.842" drill="1.6002" diameter="1.7272"/>
+<pad name="15" x="4.699" y="5.842" drill="1.6002" diameter="1.7272"/>
+<pad name="12" x="-9.4996" y="12.2682" drill="1.016" diameter="1.143"/>
+<pad name="11" x="-6.9596" y="13.7922" drill="1.016" diameter="1.143"/>
+<pad name="10" x="0.6096" y="12.2682" drill="1.016" diameter="1.143"/>
+<pad name="9" x="3.1496" y="13.7922" drill="1.016" diameter="1.143"/>
 <hole x="-8.89" y="8.89" drill="3.2004"/>
 <hole x="2.54" y="8.89" drill="3.2004"/>
-<hole x="-11.049" y="5.842" drill="1.6002"/>
-<hole x="4.699" y="5.842" drill="1.6002"/>
-<pad name="P$1" x="-9.4996" y="12.2682" drill="0.8" diameter="1.016"/>
-<pad name="P$2" x="-6.9596" y="13.7922" drill="0.8" diameter="1.016"/>
-<pad name="P$3" x="0.6096" y="12.2682" drill="0.8" diameter="1.016"/>
-<pad name="P$4" x="3.1496" y="13.7922" drill="0.8" diameter="1.016"/>
-<pad name="7" x="-6.35" y="2.54" drill="0.8" diameter="0.889"/>
-<pad name="6" x="-5.08" y="0" drill="0.8" diameter="0.889"/>
-<pad name="5" x="-3.81" y="2.54" drill="0.8" diameter="0.889"/>
-<pad name="8" x="-7.62" y="0" drill="0.8" diameter="0.889"/>
-<pad name="1" x="1.27" y="2.54" drill="0.8" diameter="0.889"/>
-<pad name="3" x="-1.27" y="2.54" drill="0.8" diameter="0.889"/>
-<pad name="2" x="0" y="0" drill="0.8" diameter="0.889"/>
-<pad name="4" x="-2.54" y="0" drill="0.8" diameter="0.889"/>
 </package>
 </packages>
 <symbols>
@@ -118,14 +118,20 @@
 <devices>
 <device name="" package="J00-0065NL">
 <connects>
+<connect gate="G$1" pin="CHS1" pad="15"/>
+<connect gate="G$1" pin="CHS2" pad="16"/>
 <connect gate="G$1" pin="CT1" pad="4"/>
 <connect gate="G$1" pin="CT2" pad="5"/>
+<connect gate="G$1" pin="G" pad="9"/>
 <connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="G_GND" pad="10"/>
 <connect gate="G$1" pin="NC" pad="7"/>
 <connect gate="G$1" pin="RD+" pad="3"/>
 <connect gate="G$1" pin="RD-" pad="6"/>
 <connect gate="G$1" pin="TD+" pad="1"/>
 <connect gate="G$1" pin="TD-" pad="2"/>
+<connect gate="G$1" pin="Y" pad="12"/>
+<connect gate="G$1" pin="Y_GND" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
