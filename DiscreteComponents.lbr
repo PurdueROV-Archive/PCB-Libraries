@@ -3890,6 +3890,22 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="2" y="6" size="1.27" layer="25" rot="R180">&gt;NAME</text>
 <text x="-4" y="-6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SL12-E3/61T">
+<smd name="1" x="-1.8796" y="0" dx="1.6764" dy="1.524" layer="1" rot="R90"/>
+<smd name="2" x="1.8796" y="0" dx="1.6764" dy="1.524" layer="1" rot="R90"/>
+<wire x1="-2.1209" y1="1.3335" x2="2.1209" y2="1.3335" width="0.127" layer="51"/>
+<wire x1="2.1209" y1="1.3335" x2="2.1209" y2="-1.3335" width="0.127" layer="51"/>
+<wire x1="2.1209" y1="-1.3335" x2="-2.1209" y2="-1.3335" width="0.127" layer="51"/>
+<wire x1="-2.1209" y1="-1.3335" x2="-2.1209" y2="1.3335" width="0.127" layer="51"/>
+<wire x1="-2.1209" y1="1.3335" x2="2.1209" y2="1.3335" width="0.2032" layer="21"/>
+<wire x1="-2.1209" y1="-1.3335" x2="2.1209" y2="-1.3335" width="0.2032" layer="21"/>
+<wire x1="-2.1209" y1="1.3335" x2="-2.1209" y2="-1.3335" width="0.2032" layer="21"/>
+<wire x1="2.1209" y1="1.3335" x2="2.1209" y2="-1.3335" width="0.2032" layer="21"/>
+<text x="-1.905" y="1.905" size="0.635" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="0.635" layer="27">&gt;VALUE</text>
+<text x="2.54" y="1.27" size="0.381" layer="21">A</text>
+<text x="-2.794" y="1.27" size="0.381" layer="21">C</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FAN5109B">
@@ -6188,6 +6204,22 @@ http://www.ussensor.com/sites/default/files/downloads/TO502J2J.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SL12-E3/61T">
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SL12-E3/61T">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
