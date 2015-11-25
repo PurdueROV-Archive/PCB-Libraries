@@ -274,10 +274,10 @@ Height: 7.70mm</description>
 <wire x1="3.4036" y1="-1.7526" x2="3.4036" y2="1.7526" width="0.127" layer="21"/>
 </package>
 <package name="SOT223">
-<smd name="P$1" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="P$2" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="P$3" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="P$4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
+<smd name="VOUT" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="VIN" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="GND" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="TAB" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
 <wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.127" layer="112"/>
 <wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.127" layer="112"/>
 <wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.127" layer="112"/>
@@ -418,8 +418,8 @@ Height: 7.70mm</description>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="VIN" x="-10.16" y="2.54" visible="off" length="middle"/>
-<pin name="VOUT" x="12.7" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="VIN" x="-10.16" y="2.54" visible="off" length="middle" direction="in"/>
+<pin name="VOUT" x="12.7" y="2.54" visible="off" length="middle" direction="out" rot="R180"/>
 <pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
 <text x="-1.524" y="-1.778" size="1.27" layer="97">GND</text>
 <text x="-3.81" y="2.032" size="1.27" layer="97">VIN</text>
@@ -587,16 +587,16 @@ Intermediate DC-DC Bus Converter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AP1117_LIN_REG">
+<deviceset name="AP1117_LIN_REG" prefix="T">
 <gates>
 <gate name="G$1" symbol="AP1117" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="SOT223">
 <connects>
-<connect gate="G$1" pin="GND" pad="P$3 P$4"/>
-<connect gate="G$1" pin="VIN" pad="P$2"/>
-<connect gate="G$1" pin="VOUT" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VOUT" pad="TAB VOUT"/>
 </connects>
 <technologies>
 <technology name=""/>
