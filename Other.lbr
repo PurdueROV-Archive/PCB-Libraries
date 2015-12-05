@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5377,6 +5377,19 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 <wire x1="1.9" y1="-1.55" x2="1.9" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="1.5" x2="-1.85" y2="1.5" width="0.127" layer="21"/>
 </package>
+<package name="50MHZOSCILLATOR">
+<smd name="1" x="-0.55" y="0.4" dx="0.6" dy="0.5" layer="1"/>
+<smd name="2" x="0.55" y="0.4" dx="0.6" dy="0.5" layer="1"/>
+<smd name="3" x="0.55" y="-0.4" dx="0.6" dy="0.5" layer="1"/>
+<smd name="4" x="-0.55" y="-0.4" dx="0.6" dy="0.5" layer="1"/>
+<wire x1="-0.9" y1="0.7" x2="-0.9" y2="-0.7" width="0.01" layer="51"/>
+<wire x1="-0.9" y1="-0.7" x2="0.9" y2="-0.7" width="0.01" layer="51"/>
+<wire x1="0.9" y1="-0.7" x2="0.9" y2="0.7" width="0.01" layer="51"/>
+<wire x1="0.9" y1="0.7" x2="-0.9" y2="0.7" width="0.01" layer="51"/>
+<circle x="-0.15" y="0.05" radius="0.05" width="0.01" layer="51"/>
+<text x="-0.889" y="0.762" size="0.254" layer="21">&gt;NAME</text>
+<text x="-0.9144" y="-0.9906" size="0.254" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -6468,6 +6481,16 @@ https://www.pololu.com/product/1182</description>
 <pin name="GND1" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="GND2" x="-12.7" y="-2.54" length="middle"/>
 </symbol>
+<symbol name="50MHZOSCILLATOR">
+<pin name="TRI-STATE" x="-17.78" y="2.54" length="middle"/>
+<pin name="GND" x="-17.78" y="-5.08" length="middle"/>
+<pin name="OUTPUT" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="15.24" y="2.54" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP9700-E/LT">
@@ -7382,6 +7405,24 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <connect gate="G$1" pin="GND2" pad="GND2"/>
 <connect gate="G$1" pin="IN/OUT" pad="IN/OUT"/>
 <connect gate="G$1" pin="OUT/IN" pad="OUT/IN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="50MHZOSCILLATOR">
+<gates>
+<gate name="G$1" symbol="50MHZOSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="50MHZOSCILLATOR">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+<connect gate="G$1" pin="TRI-STATE" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
