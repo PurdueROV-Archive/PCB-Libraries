@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6256,36 +6256,39 @@ https://www.pololu.com/product/1182</description>
 <text x="-10.16" y="-40.64" size="1.778" layer="97">OSC_OUT</text>
 </symbol>
 <symbol name="STM32F4_PWR">
-<wire x1="-7.62" y1="2.54" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="2.54" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="25.4" x2="-7.62" y2="25.4" width="0.254" layer="94"/>
-<pin name="VBAT" x="20.32" y="22.86" length="middle" rot="R180"/>
-<pin name="VSS1" x="-22.86" y="22.86" length="middle"/>
-<pin name="NRST" x="-22.86" y="-27.94" length="middle"/>
-<pin name="VDD2" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="7.62" x2="-17.78" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="30.48" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
+<pin name="VBAT" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="VSS1" x="-22.86" y="27.94" length="middle"/>
+<pin name="NRST" x="-22.86" y="-35.56" length="middle"/>
+<pin name="VDD2" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="VSSA" x="20.32" y="17.78" length="middle" rot="R180"/>
-<pin name="VREF+" x="-22.86" y="-17.78" length="middle"/>
-<pin name="VDDA" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="VSS2" x="-22.86" y="17.78" length="middle"/>
-<pin name="VDD3" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="VREF+" x="-22.86" y="-2.54" length="middle"/>
+<pin name="VDDA" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="VSS2" x="-22.86" y="22.86" length="middle"/>
+<pin name="VDD3" x="20.32" y="-12.7" length="middle" rot="R180"/>
 <pin name="VCAP_1" x="-22.86" y="-7.62" length="middle"/>
-<pin name="VDD4" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="VDD4" x="20.32" y="-17.78" length="middle" rot="R180"/>
 <pin name="VCAP_2" x="-22.86" y="-12.7" length="middle"/>
-<pin name="VSS3" x="-22.86" y="12.7" length="middle"/>
-<pin name="VDD5" x="20.32" y="-27.94" length="middle" rot="R180"/>
-<pin name="BOOT0" x="-22.86" y="-22.86" length="middle"/>
-<pin name="VDD1" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="VDD6" x="20.32" y="-33.02" length="middle" rot="R180"/>
-<pin name="VSS4" x="-22.86" y="7.62" length="middle"/>
-<wire x1="5.08" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-38.1" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="5.08" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="25.4" x2="15.24" y2="10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-5.08" x2="-17.78" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-33.02" x2="-7.62" y2="-33.02" width="0.254" layer="94"/>
+<pin name="VSS3" x="-22.86" y="17.78" length="middle"/>
+<pin name="VDD5" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="BOOT0" x="-22.86" y="-30.48" length="middle"/>
+<pin name="VDD1" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDD6" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="VSS4" x="-22.86" y="12.7" length="middle"/>
+<wire x1="5.08" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-33.02" x2="5.08" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="5.08" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="30.48" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-38.1" x2="-17.78" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-38.1" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
 </symbol>
 <symbol name="PINSECTION-A">
 <pin name="PA0_WKUP" x="-12.7" y="20.32" length="middle"/>
@@ -6482,13 +6485,13 @@ https://www.pololu.com/product/1182</description>
 <pin name="GND2" x="-12.7" y="-2.54" length="middle"/>
 </symbol>
 <symbol name="50MHZOSCILLATOR">
-<pin name="TRI-STATE" x="-17.78" y="2.54" length="middle"/>
-<pin name="GND" x="-17.78" y="-5.08" length="middle"/>
-<pin name="OUTPUT" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="VDD" x="15.24" y="2.54" length="middle" rot="R180"/>
-<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="TRI-STATE" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-17.78" y="-7.62" length="middle"/>
+<pin name="OUTPUT" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="VDD" x="-17.78" y="2.54" length="middle"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
