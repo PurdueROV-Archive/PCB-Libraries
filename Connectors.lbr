@@ -1390,6 +1390,7 @@
 <wire x1="1.6" y1="-3.775" x2="15.6" y2="-3.775" width="0.127" layer="21"/>
 <wire x1="15.6" y1="-3.775" x2="15.6" y2="0" width="0.127" layer="21"/>
 </package>
+<<<<<<< HEAD
 <package name="MICRO-FIT-4-SMD-HZ">
 <text x="2" y="8.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="2" y="-5.27" size="1.27" layer="27">&gt;VALUE</text>
@@ -1409,6 +1410,15 @@
 <wire x1="2.2615" y1="0" x2="2.2615" y2="-3.775" width="0.127" layer="21"/>
 <wire x1="2.2615" y1="-3.775" x2="17.9115" y2="-3.775" width="0.127" layer="21"/>
 <wire x1="17.9115" y1="-3.775" x2="17.9115" y2="0" width="0.127" layer="21"/>
+=======
+<package name="XT60">
+<wire x1="-4.064" y1="7.8675" x2="-4.064" y2="-7.8675" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-7.8675" x2="4.064" y2="-7.8675" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-7.8675" x2="4.064" y2="7.8675" width="0.127" layer="21"/>
+<wire x1="4.064" y1="7.8675" x2="-4.064" y2="7.8675" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="3.6" drill="4.25" diameter="4.675"/>
+<pad name="P$2" x="0" y="-3.6" drill="4.25" diameter="4.675"/>
+>>>>>>> 0940a891ed74cc70d020a5ca95901c573df4c06d
 </package>
 </packages>
 <symbols>
@@ -1580,12 +1590,22 @@
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
+<<<<<<< HEAD
 <symbol name="MICRO-FIT-4-SMD-HZ">
 <rectangle x1="-7.62" y1="-2.54" x2="7.62" y2="2.54" layer="94"/>
 <pin name="P4" x="-7.62" y="7.62" length="middle" rot="R270"/>
 <pin name="P3" x="-2.54" y="7.62" length="middle" rot="R270"/>
 <pin name="P2" x="2.54" y="7.62" length="middle" rot="R270"/>
 <pin name="P1" x="7.62" y="7.62" length="middle" rot="R270"/>
+=======
+<symbol name="XT60">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="+12V" x="-12.7" y="2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle"/>
+>>>>>>> 0940a891ed74cc70d020a5ca95901c573df4c06d
 </symbol>
 </symbols>
 <devicesets>
@@ -2251,6 +2271,7 @@
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
 <deviceset name="MICRO-FIT-4-SMD-HZ">
 <gates>
 <gate name="G$1" symbol="MICRO-FIT-4-SMD-HZ" x="0" y="0"/>
@@ -2262,6 +2283,17 @@
 <connect gate="G$1" pin="P2" pad="C2"/>
 <connect gate="G$1" pin="P3" pad="C3"/>
 <connect gate="G$1" pin="P4" pad="C4"/>
+=======
+<deviceset name="XT60">
+<gates>
+<gate name="G$1" symbol="XT60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XT60">
+<connects>
+<connect gate="G$1" pin="+12V" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+>>>>>>> 0940a891ed74cc70d020a5ca95901c573df4c06d
 </connects>
 <technologies>
 <technology name=""/>
