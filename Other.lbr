@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5377,6 +5377,19 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 <wire x1="1.9" y1="-1.55" x2="1.9" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="1.5" x2="-1.85" y2="1.5" width="0.127" layer="21"/>
 </package>
+<package name="50MHZOSCILLATOR">
+<smd name="1" x="-0.55" y="0.4" dx="0.6" dy="0.5" layer="1"/>
+<smd name="2" x="0.55" y="0.4" dx="0.6" dy="0.5" layer="1"/>
+<smd name="3" x="0.55" y="-0.4" dx="0.6" dy="0.5" layer="1"/>
+<smd name="4" x="-0.55" y="-0.4" dx="0.6" dy="0.5" layer="1"/>
+<wire x1="-0.9" y1="0.7" x2="-0.9" y2="-0.7" width="0.01" layer="51"/>
+<wire x1="-0.9" y1="-0.7" x2="0.9" y2="-0.7" width="0.01" layer="51"/>
+<wire x1="0.9" y1="-0.7" x2="0.9" y2="0.7" width="0.01" layer="51"/>
+<wire x1="0.9" y1="0.7" x2="-0.9" y2="0.7" width="0.01" layer="51"/>
+<circle x="-0.15" y="0.05" radius="0.05" width="0.01" layer="51"/>
+<text x="-0.889" y="0.762" size="0.254" layer="21">&gt;NAME</text>
+<text x="-0.9144" y="-0.9906" size="0.254" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -6243,36 +6256,39 @@ https://www.pololu.com/product/1182</description>
 <text x="-10.16" y="-40.64" size="1.778" layer="97">OSC_OUT</text>
 </symbol>
 <symbol name="STM32F4_PWR">
-<wire x1="-7.62" y1="2.54" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="2.54" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="25.4" x2="-7.62" y2="25.4" width="0.254" layer="94"/>
-<pin name="VBAT" x="20.32" y="22.86" length="middle" rot="R180"/>
-<pin name="VSS1" x="-22.86" y="22.86" length="middle"/>
-<pin name="NRST" x="-22.86" y="-27.94" length="middle"/>
-<pin name="VDD2" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="7.62" x2="-17.78" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="30.48" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
+<pin name="VBAT" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="VSS1" x="-22.86" y="27.94" length="middle"/>
+<pin name="NRST" x="-22.86" y="-35.56" length="middle"/>
+<pin name="VDD2" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="VSSA" x="20.32" y="17.78" length="middle" rot="R180"/>
-<pin name="VREF+" x="-22.86" y="-17.78" length="middle"/>
-<pin name="VDDA" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="VSS2" x="-22.86" y="17.78" length="middle"/>
-<pin name="VDD3" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="VREF+" x="-22.86" y="-2.54" length="middle"/>
+<pin name="VDDA" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="VSS2" x="-22.86" y="22.86" length="middle"/>
+<pin name="VDD3" x="20.32" y="-12.7" length="middle" rot="R180"/>
 <pin name="VCAP_1" x="-22.86" y="-7.62" length="middle"/>
-<pin name="VDD4" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="VDD4" x="20.32" y="-17.78" length="middle" rot="R180"/>
 <pin name="VCAP_2" x="-22.86" y="-12.7" length="middle"/>
-<pin name="VSS3" x="-22.86" y="12.7" length="middle"/>
-<pin name="VDD5" x="20.32" y="-27.94" length="middle" rot="R180"/>
-<pin name="BOOT0" x="-22.86" y="-22.86" length="middle"/>
-<pin name="VDD1" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="VDD6" x="20.32" y="-33.02" length="middle" rot="R180"/>
-<pin name="VSS4" x="-22.86" y="7.62" length="middle"/>
-<wire x1="5.08" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-38.1" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="5.08" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="25.4" x2="15.24" y2="10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-5.08" x2="-17.78" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-33.02" x2="-7.62" y2="-33.02" width="0.254" layer="94"/>
+<pin name="VSS3" x="-22.86" y="17.78" length="middle"/>
+<pin name="VDD5" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="BOOT0" x="-22.86" y="-30.48" length="middle"/>
+<pin name="VDD1" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDD6" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="VSS4" x="-22.86" y="12.7" length="middle"/>
+<wire x1="5.08" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-33.02" x2="5.08" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="5.08" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="30.48" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-38.1" x2="-17.78" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-38.1" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
 </symbol>
 <symbol name="PINSECTION-A">
 <pin name="PA0_WKUP" x="-12.7" y="20.32" length="middle"/>
@@ -6467,6 +6483,16 @@ https://www.pololu.com/product/1182</description>
 <wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <pin name="GND1" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="GND2" x="-12.7" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="50MHZOSCILLATOR">
+<pin name="TRI-STATE" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-17.78" y="-7.62" length="middle"/>
+<pin name="OUTPUT" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="VDD" x="-17.78" y="2.54" length="middle"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7382,6 +7408,24 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <connect gate="G$1" pin="GND2" pad="GND2"/>
 <connect gate="G$1" pin="IN/OUT" pad="IN/OUT"/>
 <connect gate="G$1" pin="OUT/IN" pad="OUT/IN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="50MHZOSCILLATOR">
+<gates>
+<gate name="G$1" symbol="50MHZOSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="50MHZOSCILLATOR">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+<connect gate="G$1" pin="TRI-STATE" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
