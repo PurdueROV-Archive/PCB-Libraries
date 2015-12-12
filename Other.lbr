@@ -5391,19 +5391,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 <text x="-0.9144" y="-0.9906" size="0.254" layer="21">&gt;VALUE</text>
 </package>
 <package name="ETH_SWITCH">
-<hole x="94.361" y="8.89" drill="4.318"/>
-<hole x="-6.35" y="8.89" drill="4.318"/>
-<text x="10.16" y="7.62" size="5.08" layer="51">ETHERNET SWITCH</text>
+<hole x="76.581" y="8.89" drill="4.318"/>
+<hole x="11.43" y="8.89" drill="4.318"/>
+<text x="17.78" y="7.62" size="3.81" layer="51">ETHERNET SWITCH</text>
 <wire x1="0" y1="0" x2="0" y2="17.78" width="0.127" layer="21"/>
 <wire x1="0" y1="17.78" x2="88.011" y2="17.78" width="0.127" layer="21"/>
 <wire x1="88.011" y1="17.78" x2="88.011" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="17.78" x2="-10.16" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="17.78" x2="-10.16" y2="0" width="0.127" layer="21"/>
-<wire x1="88.011" y1="17.78" x2="98.1964" y2="17.78" width="0.127" layer="21"/>
-<wire x1="98.1964" y1="17.78" x2="98.171" y2="0" width="0.127" layer="21"/>
-<wire x1="98.171" y1="0" x2="88.011" y2="0" width="0.127" layer="21"/>
 <wire x1="88.011" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-10.16" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
