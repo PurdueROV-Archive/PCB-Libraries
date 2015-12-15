@@ -1418,6 +1418,264 @@
 <wire x1="2.2615" y1="-3.775" x2="17.9115" y2="-3.775" width="0.127" layer="21"/>
 <wire x1="17.9115" y1="-3.775" x2="17.9115" y2="0" width="0.127" layer="21"/>
 </package>
+<package name="HSC8-60PINOUUT">
+<smd name="T1" x="0.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T3" x="2.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T5" x="4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T7" x="5.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T9" x="7.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T11" x="8.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T13" x="10.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T15" x="12" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T17" x="13.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T19" x="15.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T21" x="16.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="B2" x="1.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B4" x="3.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B6" x="4.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B8" x="6.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B10" x="8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B12" x="9.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B14" x="11.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B16" x="12.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B18" x="14.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B20" x="16" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B22" x="17.6" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="T2" x="1.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T4" x="3.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T6" x="4.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T8" x="6.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T10" x="8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T12" x="9.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T14" x="11.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T16" x="12.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T18" x="14.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T20" x="16" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T22" x="17.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="B1" x="0.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B3" x="2.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B5" x="4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B7" x="5.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B9" x="7.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B11" x="8.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B13" x="10.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B15" x="12" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B17" x="13.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B19" x="15.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B21" x="16.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<wire x1="0" y1="0" x2="0" y2="5.5" width="0.127" layer="21"/>
+<wire x1="0" y1="14.4" x2="0" y2="20" width="0.127" layer="20"/>
+<wire x1="0" y1="5.51" x2="-4.5" y2="5.51" width="0.127" layer="20"/>
+<wire x1="-2.25" y1="14.37" x2="0" y2="14.37" width="0.127" layer="20"/>
+<smd name="T23" x="18.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T24" x="19.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T25" x="20" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T26" x="20.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T27" x="21.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T28" x="22.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T29" x="23.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T30" x="24" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T31" x="24.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T32" x="25.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T59" x="50.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T60" x="51.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T58" x="49.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T57" x="48.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T56" x="48" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T55" x="47.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T54" x="46.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T53" x="45.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T52" x="44.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T51" x="44" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T50" x="43.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T49" x="42.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T48" x="41.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T47" x="40.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T46" x="40" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T45" x="39.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T44" x="38.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T43" x="37.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T42" x="36.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T41" x="36" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T40" x="35.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T39" x="34.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T38" x="33.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T37" x="32.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T36" x="32" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T35" x="31.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T34" x="30.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T33" x="29.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="B23" x="18.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B24" x="19.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B25" x="20" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B27" x="21.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B26" x="20.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B28" x="22.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B29" x="23.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B30" x="24" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B31" x="24.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B32" x="25.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B33" x="29.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B34" x="30.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B35" x="31.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B36" x="32" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B37" x="32.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B39" x="34.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B38" x="33.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B40" x="35.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B41" x="36" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B42" x="36.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B43" x="37.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B44" x="38.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B45" x="39.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B46" x="40" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B47" x="40.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B48" x="41.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B49" x="42.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B50" x="43.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B51" x="44" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B52" x="44.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B53" x="45.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B54" x="46.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B55" x="47.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B56" x="48" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B57" x="48.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B58" x="49.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B59" x="50.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B60" x="51.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<wire x1="28.9" y1="6.2" x2="26.55" y2="6.2" width="0.127" layer="20"/>
+<wire x1="28.9" y1="6.2" x2="28.9" y2="0" width="0.127" layer="20"/>
+<wire x1="26.55" y1="6.2" x2="26.55" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="26.55" y2="0" width="0.127" layer="20"/>
+<wire x1="28.9" y1="0" x2="52.45" y2="0" width="0.127" layer="20"/>
+<wire x1="52.45" y1="0" x2="52.45" y2="5.5" width="0.127" layer="21"/>
+<wire x1="56.95" y1="5.51" x2="52.45" y2="5.51" width="0.127" layer="20"/>
+<wire x1="-2.25" y1="14.37" x2="-2.25" y2="7.57" width="0.127" layer="20"/>
+<wire x1="54.75" y1="14.27" x2="54.75" y2="7.5" width="0.127" layer="20"/>
+<wire x1="54.75" y1="7.5" x2="54.75" y2="7.47" width="0.127" layer="20"/>
+<wire x1="52.5" y1="14.27" x2="54.75" y2="14.27" width="0.127" layer="20"/>
+<wire x1="52.5" y1="14.25" x2="52.5" y2="20" width="0.127" layer="20"/>
+<wire x1="0" y1="20" x2="52.5" y2="20" width="0.127" layer="51"/>
+<wire x1="52.45" y1="0" x2="52.45" y2="5.5" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="5.5" width="0.127" layer="20"/>
+<wire x1="56.95" y1="5.5" x2="56.95" y2="7.55" width="0.127" layer="20"/>
+<wire x1="54.75" y1="7.5" x2="55.05" y2="7.2" width="0.127" layer="20" curve="90"/>
+<wire x1="56.95" y1="7.55" x2="56.6" y2="7.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="55.05" y1="7.2" x2="56.65" y2="7.2" width="0.127" layer="20"/>
+<wire x1="-2.55" y1="7.25" x2="-2.25" y2="7.55" width="0.127" layer="20" curve="90"/>
+<wire x1="-4.1" y1="7.25" x2="-2.5" y2="7.25" width="0.127" layer="20"/>
+<wire x1="-4.5" y1="5.55" x2="-4.5" y2="7.6" width="0.127" layer="20"/>
+<wire x1="-4.15" y1="7.25" x2="-4.5" y2="7.6" width="0.127" layer="20" curve="-90"/>
+</package>
+<package name="HSC8-40PINOUUT">
+<smd name="T1" x="0.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T3" x="2.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T5" x="4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T7" x="5.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T9" x="7.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T11" x="8.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T13" x="10.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T15" x="12" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T17" x="13.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T19" x="15.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T21" x="16.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="B2" x="1.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B4" x="3.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B6" x="4.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B8" x="6.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B10" x="8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B12" x="9.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B14" x="11.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B16" x="12.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B18" x="14.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B20" x="16" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B40" x="35.2" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B38" x="33.6" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B36" x="32" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B34" x="30.4" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B32" x="28.8" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B30" x="27.2" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B28" x="25.6" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B26" x="24" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="B24" x="22.4" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="T39" x="34.4" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T37" x="32.8" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T35" x="31.2" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T33" x="29.6" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T31" x="28" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T29" x="26.4" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T27" x="24.8" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T25" x="23.2" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="T23" x="21.6" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
+<smd name="B22" x="17.6" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<wire x1="36.25" y1="20" x2="0" y2="20" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="18.6" y2="0" width="0.127" layer="20"/>
+<wire x1="18.6" y1="0" x2="18.61" y2="0" width="0.127" layer="20"/>
+<wire x1="18.6" y1="0" x2="18.6" y2="7.35" width="0.127" layer="20"/>
+<wire x1="18.6" y1="7.35" x2="21" y2="7.35" width="0.127" layer="20"/>
+<wire x1="21" y1="7.35" x2="21" y2="0" width="0.127" layer="20"/>
+<wire x1="21" y1="0" x2="36.25" y2="0" width="0.127" layer="20"/>
+<smd name="T2" x="1.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T4" x="3.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T6" x="4.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T8" x="6.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T10" x="8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T12" x="9.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T14" x="11.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T16" x="12.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T18" x="14.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T20" x="16" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T22" x="17.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T24" x="22.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T26" x="24" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T28" x="25.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T30" x="27.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T32" x="28.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T34" x="30.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T36" x="32" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T38" x="33.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="T40" x="35.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
+<smd name="B1" x="0.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B3" x="2.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B5" x="4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B7" x="5.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B9" x="7.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B11" x="8.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B13" x="10.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B15" x="12" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B17" x="13.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B19" x="15.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B21" x="16.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B23" x="21.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B25" x="23.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B27" x="24.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B29" x="26.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B31" x="28" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B33" x="29.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B35" x="31.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B37" x="32.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="B39" x="34.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<wire x1="36.25" y1="0" x2="36.25" y2="5.5" width="0.127" layer="20"/>
+<wire x1="36.25" y1="14.4" x2="36.25" y2="20" width="0.127" layer="20"/>
+<wire x1="0" y1="14.4" x2="0" y2="20" width="0.127" layer="20"/>
+<wire x1="40.75" y1="5.51" x2="36.25" y2="5.51" width="0.127" layer="20"/>
+<wire x1="36.25" y1="14.37" x2="38.5" y2="14.37" width="0.127" layer="20"/>
+<wire x1="38.5" y1="14.37" x2="38.5" y2="7.57" width="0.127" layer="20"/>
+<wire x1="0" y1="5.51" x2="-4.5" y2="5.51" width="0.127" layer="20"/>
+<wire x1="-2.25" y1="14.37" x2="0" y2="14.37" width="0.127" layer="20"/>
+<wire x1="-2.25" y1="14.37" x2="-2.25" y2="7.6" width="0.127" layer="20"/>
+<wire x1="-2.25" y1="7.6" x2="-2.25" y2="7.57" width="0.127" layer="20"/>
+<wire x1="-4.5" y1="5.5" x2="-4.5" y2="7.65" width="0.127" layer="20"/>
+<wire x1="-4.5" y1="7.65" x2="-4.15" y2="7.3" width="0.127" layer="20" curve="90"/>
+<wire x1="-2.25" y1="7.6" x2="-2.55" y2="7.3" width="0.127" layer="20" curve="-90"/>
+<wire x1="-4.15" y1="7.3" x2="-2.5" y2="7.3" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="5.5" width="0.127" layer="20"/>
+<wire x1="40.75" y1="5.5" x2="40.75" y2="7.55" width="0.127" layer="20"/>
+<wire x1="38.5" y1="7.55" x2="38.5" y2="7.5" width="0.127" layer="20"/>
+<wire x1="38.5" y1="7.5" x2="38.8" y2="7.2" width="0.127" layer="20" curve="90"/>
+<wire x1="40.75" y1="7.55" x2="40.4" y2="7.2" width="0.127" layer="20" curve="-90"/>
+<wire x1="38.8" y1="7.2" x2="40.4" y2="7.2" width="0.127" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MICRO-FIT-4-SMD">
@@ -1602,6 +1860,150 @@
 <pin name="P3" x="-2.54" y="7.62" length="middle" rot="R270"/>
 <pin name="P2" x="2.54" y="7.62" length="middle" rot="R270"/>
 <pin name="P1" x="7.62" y="7.62" length="middle" rot="R270"/>
+</symbol>
+<symbol name="HSC8SCHEMATICPART">
+<pin name="T2" x="-12.7" y="15.24" length="middle"/>
+<pin name="T1" x="-12.7" y="22.86" length="middle"/>
+<pin name="T3" x="-12.7" y="7.62" length="middle"/>
+<pin name="T4" x="-12.7" y="0" length="middle"/>
+<pin name="T5" x="-12.7" y="-7.62" length="middle"/>
+<pin name="T6" x="-12.7" y="-15.24" length="middle"/>
+<pin name="T7" x="-12.7" y="-22.86" length="middle"/>
+<pin name="T8" x="-12.7" y="-30.48" length="middle"/>
+<pin name="T9" x="-12.7" y="-38.1" length="middle"/>
+<pin name="T10" x="-12.7" y="-45.72" length="middle"/>
+<pin name="T20" x="15.24" y="-45.72" length="middle" rot="R180"/>
+<pin name="T19" x="15.24" y="-38.1" length="middle" rot="R180"/>
+<pin name="T18" x="15.24" y="-30.48" length="middle" rot="R180"/>
+<pin name="T17" x="15.24" y="-22.86" length="middle" rot="R180"/>
+<pin name="T16" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="T15" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="T14" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="T13" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="T12" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="T11" x="15.24" y="22.86" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="-50.8" x2="-7.62" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-50.8" x2="-7.62" y2="-50.8" width="0.254" layer="94"/>
+<text x="-7.62" y="-53.34" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="25.654" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="B1" x="-12.7" y="20.32" length="middle"/>
+<pin name="B2" x="-12.7" y="12.7" length="middle"/>
+<pin name="B3" x="-12.7" y="5.08" length="middle"/>
+<pin name="B4" x="-12.7" y="-2.54" length="middle"/>
+<pin name="B5" x="-12.7" y="-10.16" length="middle"/>
+<pin name="B6" x="-12.7" y="-17.78" length="middle"/>
+<pin name="B7" x="-12.7" y="-25.4" length="middle"/>
+<pin name="B8" x="-12.7" y="-33.02" length="middle"/>
+<pin name="B9" x="-12.7" y="-40.64" length="middle"/>
+<pin name="B10" x="-12.7" y="-48.26" length="middle"/>
+<wire x1="10.16" y1="25.4" x2="10.16" y2="-50.8" width="0.254" layer="94"/>
+<pin name="B11" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="B12" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="B13" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="B14" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="B15" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="B16" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="B17" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<pin name="B18" x="15.24" y="-33.02" length="middle" rot="R180"/>
+<pin name="B19" x="15.24" y="-40.64" length="middle" rot="R180"/>
+<pin name="B20" x="15.24" y="-48.26" length="middle" rot="R180"/>
+</symbol>
+<symbol name="HSC8SCHEMATIC_BANK2">
+<pin name="T22" x="-12.7" y="27.94" length="middle"/>
+<pin name="T21" x="-12.7" y="35.56" length="middle"/>
+<pin name="T23" x="-12.7" y="20.32" length="middle"/>
+<pin name="T24" x="-12.7" y="12.7" length="middle"/>
+<pin name="T25" x="-12.7" y="5.08" length="middle"/>
+<pin name="T26" x="-12.7" y="-2.54" length="middle"/>
+<pin name="T27" x="-12.7" y="-10.16" length="middle"/>
+<pin name="T28" x="-12.7" y="-17.78" length="middle"/>
+<pin name="T29" x="-12.7" y="-25.4" length="middle"/>
+<pin name="T30" x="-12.7" y="-33.02" length="middle"/>
+<pin name="T40" x="15.24" y="-33.02" length="middle" rot="R180"/>
+<pin name="T39" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<pin name="T38" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="T37" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="T36" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="T35" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="T34" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="T33" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="T32" x="15.24" y="27.94" length="middle" rot="R180"/>
+<pin name="T31" x="15.24" y="35.56" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="-38.1" x2="-7.62" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="38.1" x2="10.16" y2="38.1" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-38.1" x2="-7.62" y2="-38.1" width="0.254" layer="94"/>
+<text x="-7.62" y="-40.64" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="38.354" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="B21" x="-12.7" y="33.02" length="middle"/>
+<pin name="B22" x="-12.7" y="25.4" length="middle"/>
+<pin name="B23" x="-12.7" y="17.78" length="middle"/>
+<pin name="B24" x="-12.7" y="10.16" length="middle"/>
+<pin name="B25" x="-12.7" y="2.54" length="middle"/>
+<pin name="B26" x="-12.7" y="-5.08" length="middle"/>
+<pin name="B27" x="-12.7" y="-12.7" length="middle"/>
+<pin name="B28" x="-12.7" y="-20.32" length="middle"/>
+<pin name="B29" x="-12.7" y="-27.94" length="middle"/>
+<pin name="B30" x="-12.7" y="-35.56" length="middle"/>
+<wire x1="10.16" y1="38.1" x2="10.16" y2="-38.1" width="0.254" layer="94"/>
+<pin name="B31" x="15.24" y="33.02" length="middle" rot="R180"/>
+<pin name="B32" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="B33" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="B34" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="B35" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="B36" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="B37" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="B38" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="B39" x="15.24" y="-27.94" length="middle" rot="R180"/>
+<pin name="B40" x="15.24" y="-35.56" length="middle" rot="R180"/>
+</symbol>
+<symbol name="HSC8SCHEMATIC_BANK3">
+<pin name="T42" x="-12.7" y="27.94" length="middle"/>
+<pin name="T41" x="-12.7" y="35.56" length="middle"/>
+<pin name="T43" x="-12.7" y="20.32" length="middle"/>
+<pin name="T44" x="-12.7" y="12.7" length="middle"/>
+<pin name="T45" x="-12.7" y="5.08" length="middle"/>
+<pin name="T46" x="-12.7" y="-2.54" length="middle"/>
+<pin name="T47" x="-12.7" y="-10.16" length="middle"/>
+<pin name="T48" x="-12.7" y="-17.78" length="middle"/>
+<pin name="T49" x="-12.7" y="-25.4" length="middle"/>
+<pin name="T50" x="-12.7" y="-33.02" length="middle"/>
+<pin name="T60" x="15.24" y="-33.02" length="middle" rot="R180"/>
+<pin name="T59" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<pin name="T58" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="T57" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="T56" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="T55" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="T54" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="T53" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="T52" x="15.24" y="27.94" length="middle" rot="R180"/>
+<pin name="T51" x="15.24" y="35.56" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="-38.1" x2="-7.62" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="38.1" x2="10.16" y2="38.1" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-38.1" x2="-7.62" y2="-38.1" width="0.254" layer="94"/>
+<text x="-7.62" y="-40.64" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="38.354" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="B41" x="-12.7" y="33.02" length="middle"/>
+<pin name="B42" x="-12.7" y="25.4" length="middle"/>
+<pin name="B43" x="-12.7" y="17.78" length="middle"/>
+<pin name="B44" x="-12.7" y="10.16" length="middle"/>
+<pin name="B45" x="-12.7" y="2.54" length="middle"/>
+<pin name="B46" x="-12.7" y="-5.08" length="middle"/>
+<pin name="B47" x="-12.7" y="-12.7" length="middle"/>
+<pin name="B48" x="-12.7" y="-20.32" length="middle"/>
+<pin name="B49" x="-12.7" y="-27.94" length="middle"/>
+<pin name="B50" x="-12.7" y="-35.56" length="middle"/>
+<wire x1="10.16" y1="38.1" x2="10.16" y2="-38.1" width="0.254" layer="94"/>
+<pin name="B51" x="15.24" y="33.02" length="middle" rot="R180"/>
+<pin name="B52" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="B53" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="B54" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="B55" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="B56" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="B57" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="B58" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="B59" x="15.24" y="-27.94" length="middle" rot="R180"/>
+<pin name="B60" x="15.24" y="-35.56" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2294,6 +2696,237 @@
 <connect gate="G$1" pin="P2" pad="C2"/>
 <connect gate="G$1" pin="P3" pad="C3"/>
 <connect gate="G$1" pin="P4" pad="C4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HSC8PART-60">
+<gates>
+<gate name="G$1" symbol="HSC8SCHEMATICPART" x="-43.18" y="-12.7"/>
+<gate name="G$2" symbol="HSC8SCHEMATIC_BANK2" x="35.56" y="-25.4"/>
+<gate name="G$3" symbol="HSC8SCHEMATIC_BANK3" x="-5.08" y="-25.4"/>
+</gates>
+<devices>
+<device name="" package="HSC8-60PINOUUT">
+<connects>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B10" pad="B10"/>
+<connect gate="G$1" pin="B11" pad="B11"/>
+<connect gate="G$1" pin="B12" pad="B12"/>
+<connect gate="G$1" pin="B13" pad="B13"/>
+<connect gate="G$1" pin="B14" pad="B14"/>
+<connect gate="G$1" pin="B15" pad="B15"/>
+<connect gate="G$1" pin="B16" pad="B16"/>
+<connect gate="G$1" pin="B17" pad="B17"/>
+<connect gate="G$1" pin="B18" pad="B18"/>
+<connect gate="G$1" pin="B19" pad="B19"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B20" pad="B20"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="B6" pad="B6"/>
+<connect gate="G$1" pin="B7" pad="B7"/>
+<connect gate="G$1" pin="B8" pad="B8"/>
+<connect gate="G$1" pin="B9" pad="B9"/>
+<connect gate="G$1" pin="T1" pad="T1"/>
+<connect gate="G$1" pin="T10" pad="T10"/>
+<connect gate="G$1" pin="T11" pad="T11"/>
+<connect gate="G$1" pin="T12" pad="T12"/>
+<connect gate="G$1" pin="T13" pad="T13"/>
+<connect gate="G$1" pin="T14" pad="T14"/>
+<connect gate="G$1" pin="T15" pad="T15"/>
+<connect gate="G$1" pin="T16" pad="T16"/>
+<connect gate="G$1" pin="T17" pad="T17"/>
+<connect gate="G$1" pin="T18" pad="T18"/>
+<connect gate="G$1" pin="T19" pad="T19"/>
+<connect gate="G$1" pin="T2" pad="T2"/>
+<connect gate="G$1" pin="T20" pad="T20"/>
+<connect gate="G$1" pin="T3" pad="T3"/>
+<connect gate="G$1" pin="T4" pad="T4"/>
+<connect gate="G$1" pin="T5" pad="T5"/>
+<connect gate="G$1" pin="T6" pad="T6"/>
+<connect gate="G$1" pin="T7" pad="T7"/>
+<connect gate="G$1" pin="T8" pad="T8"/>
+<connect gate="G$1" pin="T9" pad="T9"/>
+<connect gate="G$2" pin="B21" pad="B21"/>
+<connect gate="G$2" pin="B22" pad="B22"/>
+<connect gate="G$2" pin="B23" pad="B23"/>
+<connect gate="G$2" pin="B24" pad="B24"/>
+<connect gate="G$2" pin="B25" pad="B25"/>
+<connect gate="G$2" pin="B26" pad="B26"/>
+<connect gate="G$2" pin="B27" pad="B27"/>
+<connect gate="G$2" pin="B28" pad="B28"/>
+<connect gate="G$2" pin="B29" pad="B29"/>
+<connect gate="G$2" pin="B30" pad="B30"/>
+<connect gate="G$2" pin="B31" pad="B31"/>
+<connect gate="G$2" pin="B32" pad="B32"/>
+<connect gate="G$2" pin="B33" pad="B33"/>
+<connect gate="G$2" pin="B34" pad="B34"/>
+<connect gate="G$2" pin="B35" pad="B35"/>
+<connect gate="G$2" pin="B36" pad="B36"/>
+<connect gate="G$2" pin="B37" pad="B37"/>
+<connect gate="G$2" pin="B38" pad="B38"/>
+<connect gate="G$2" pin="B39" pad="B39"/>
+<connect gate="G$2" pin="B40" pad="B40"/>
+<connect gate="G$2" pin="T21" pad="T21"/>
+<connect gate="G$2" pin="T22" pad="T22"/>
+<connect gate="G$2" pin="T23" pad="T23"/>
+<connect gate="G$2" pin="T24" pad="T24"/>
+<connect gate="G$2" pin="T25" pad="T25"/>
+<connect gate="G$2" pin="T26" pad="T26"/>
+<connect gate="G$2" pin="T27" pad="T27"/>
+<connect gate="G$2" pin="T28" pad="T28"/>
+<connect gate="G$2" pin="T29" pad="T29"/>
+<connect gate="G$2" pin="T30" pad="T30"/>
+<connect gate="G$2" pin="T31" pad="T31"/>
+<connect gate="G$2" pin="T32" pad="T32"/>
+<connect gate="G$2" pin="T33" pad="T33"/>
+<connect gate="G$2" pin="T34" pad="T34"/>
+<connect gate="G$2" pin="T35" pad="T35"/>
+<connect gate="G$2" pin="T36" pad="T36"/>
+<connect gate="G$2" pin="T37" pad="T37"/>
+<connect gate="G$2" pin="T38" pad="T38"/>
+<connect gate="G$2" pin="T39" pad="T39"/>
+<connect gate="G$2" pin="T40" pad="T40"/>
+<connect gate="G$3" pin="B41" pad="B41"/>
+<connect gate="G$3" pin="B42" pad="B42"/>
+<connect gate="G$3" pin="B43" pad="B43"/>
+<connect gate="G$3" pin="B44" pad="B44"/>
+<connect gate="G$3" pin="B45" pad="B45"/>
+<connect gate="G$3" pin="B46" pad="B46"/>
+<connect gate="G$3" pin="B47" pad="B47"/>
+<connect gate="G$3" pin="B48" pad="B48"/>
+<connect gate="G$3" pin="B49" pad="B49"/>
+<connect gate="G$3" pin="B50" pad="B50"/>
+<connect gate="G$3" pin="B51" pad="B51"/>
+<connect gate="G$3" pin="B52" pad="B52"/>
+<connect gate="G$3" pin="B53" pad="B53"/>
+<connect gate="G$3" pin="B54" pad="B54"/>
+<connect gate="G$3" pin="B55" pad="B55"/>
+<connect gate="G$3" pin="B56" pad="B56"/>
+<connect gate="G$3" pin="B57" pad="B57"/>
+<connect gate="G$3" pin="B58" pad="B58"/>
+<connect gate="G$3" pin="B59" pad="B59"/>
+<connect gate="G$3" pin="B60" pad="B60"/>
+<connect gate="G$3" pin="T41" pad="T41"/>
+<connect gate="G$3" pin="T42" pad="T42"/>
+<connect gate="G$3" pin="T43" pad="T43"/>
+<connect gate="G$3" pin="T44" pad="T44"/>
+<connect gate="G$3" pin="T45" pad="T45"/>
+<connect gate="G$3" pin="T46" pad="T46"/>
+<connect gate="G$3" pin="T47" pad="T47"/>
+<connect gate="G$3" pin="T48" pad="T48"/>
+<connect gate="G$3" pin="T49" pad="T49"/>
+<connect gate="G$3" pin="T50" pad="T50"/>
+<connect gate="G$3" pin="T51" pad="T51"/>
+<connect gate="G$3" pin="T52" pad="T52"/>
+<connect gate="G$3" pin="T53" pad="T53"/>
+<connect gate="G$3" pin="T54" pad="T54"/>
+<connect gate="G$3" pin="T55" pad="T55"/>
+<connect gate="G$3" pin="T56" pad="T56"/>
+<connect gate="G$3" pin="T57" pad="T57"/>
+<connect gate="G$3" pin="T58" pad="T58"/>
+<connect gate="G$3" pin="T59" pad="T59"/>
+<connect gate="G$3" pin="T60" pad="T60"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HSCPART">
+<gates>
+<gate name="G$1" symbol="HSC8SCHEMATICPART" x="-22.86" y="0"/>
+<gate name="G$2" symbol="HSC8SCHEMATIC_BANK2" x="20.32" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="HSC8-40PINOUUT">
+<connects>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B10" pad="B10"/>
+<connect gate="G$1" pin="B11" pad="B11"/>
+<connect gate="G$1" pin="B12" pad="B12"/>
+<connect gate="G$1" pin="B13" pad="B13"/>
+<connect gate="G$1" pin="B14" pad="B14"/>
+<connect gate="G$1" pin="B15" pad="B15"/>
+<connect gate="G$1" pin="B16" pad="B16"/>
+<connect gate="G$1" pin="B17" pad="B17"/>
+<connect gate="G$1" pin="B18" pad="B18"/>
+<connect gate="G$1" pin="B19" pad="B19"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B20" pad="B20"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="B6" pad="B6"/>
+<connect gate="G$1" pin="B7" pad="B7"/>
+<connect gate="G$1" pin="B8" pad="B8"/>
+<connect gate="G$1" pin="B9" pad="B9"/>
+<connect gate="G$1" pin="T1" pad="T1"/>
+<connect gate="G$1" pin="T10" pad="T10"/>
+<connect gate="G$1" pin="T11" pad="T11"/>
+<connect gate="G$1" pin="T12" pad="T12"/>
+<connect gate="G$1" pin="T13" pad="T13"/>
+<connect gate="G$1" pin="T14" pad="T14"/>
+<connect gate="G$1" pin="T15" pad="T15"/>
+<connect gate="G$1" pin="T16" pad="T16"/>
+<connect gate="G$1" pin="T17" pad="T17"/>
+<connect gate="G$1" pin="T18" pad="T18"/>
+<connect gate="G$1" pin="T19" pad="T19"/>
+<connect gate="G$1" pin="T2" pad="T2"/>
+<connect gate="G$1" pin="T20" pad="T20"/>
+<connect gate="G$1" pin="T3" pad="T3"/>
+<connect gate="G$1" pin="T4" pad="T4"/>
+<connect gate="G$1" pin="T5" pad="T5"/>
+<connect gate="G$1" pin="T6" pad="T6"/>
+<connect gate="G$1" pin="T7" pad="T7"/>
+<connect gate="G$1" pin="T8" pad="T8"/>
+<connect gate="G$1" pin="T9" pad="T9"/>
+<connect gate="G$2" pin="B21" pad="B21"/>
+<connect gate="G$2" pin="B22" pad="B22"/>
+<connect gate="G$2" pin="B23" pad="B23"/>
+<connect gate="G$2" pin="B24" pad="B24"/>
+<connect gate="G$2" pin="B25" pad="B25"/>
+<connect gate="G$2" pin="B26" pad="B26"/>
+<connect gate="G$2" pin="B27" pad="B27"/>
+<connect gate="G$2" pin="B28" pad="B28"/>
+<connect gate="G$2" pin="B29" pad="B29"/>
+<connect gate="G$2" pin="B30" pad="B30"/>
+<connect gate="G$2" pin="B31" pad="B31"/>
+<connect gate="G$2" pin="B32" pad="B32"/>
+<connect gate="G$2" pin="B33" pad="B33"/>
+<connect gate="G$2" pin="B34" pad="B34"/>
+<connect gate="G$2" pin="B35" pad="B35"/>
+<connect gate="G$2" pin="B36" pad="B36"/>
+<connect gate="G$2" pin="B37" pad="B37"/>
+<connect gate="G$2" pin="B38" pad="B38"/>
+<connect gate="G$2" pin="B39" pad="B39"/>
+<connect gate="G$2" pin="B40" pad="B40"/>
+<connect gate="G$2" pin="T21" pad="T21"/>
+<connect gate="G$2" pin="T22" pad="T22"/>
+<connect gate="G$2" pin="T23" pad="T23"/>
+<connect gate="G$2" pin="T24" pad="T24"/>
+<connect gate="G$2" pin="T25" pad="T25"/>
+<connect gate="G$2" pin="T26" pad="T26"/>
+<connect gate="G$2" pin="T27" pad="T27"/>
+<connect gate="G$2" pin="T28" pad="T28"/>
+<connect gate="G$2" pin="T29" pad="T29"/>
+<connect gate="G$2" pin="T30" pad="T30"/>
+<connect gate="G$2" pin="T31" pad="T31"/>
+<connect gate="G$2" pin="T32" pad="T32"/>
+<connect gate="G$2" pin="T33" pad="T33"/>
+<connect gate="G$2" pin="T34" pad="T34"/>
+<connect gate="G$2" pin="T35" pad="T35"/>
+<connect gate="G$2" pin="T36" pad="T36"/>
+<connect gate="G$2" pin="T37" pad="T37"/>
+<connect gate="G$2" pin="T38" pad="T38"/>
+<connect gate="G$2" pin="T39" pad="T39"/>
+<connect gate="G$2" pin="T40" pad="T40"/>
 </connects>
 <technologies>
 <technology name=""/>
