@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -317,13 +317,9 @@ Height: 7.70mm</description>
 </package>
 <package name="CTAN(7.30_4.30MM)">
 <smd name="+" x="-3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
-<wire x1="-3.65" y1="2.15" x2="3.65" y2="2.15" width="0.127" layer="20"/>
-<wire x1="3.65" y1="-2.15" x2="-3.65" y2="-2.15" width="0.127" layer="20"/>
+<wire x1="-3.65" y1="2.15" x2="3.65" y2="2.15" width="0.127" layer="21"/>
+<wire x1="3.65" y1="-2.15" x2="-3.65" y2="-2.15" width="0.127" layer="21"/>
 <smd name="-" x="3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
-<wire x1="-3.65" y1="2.15" x2="-3.65" y2="1.275" width="0.127" layer="20"/>
-<wire x1="-3.65" y1="-1.275" x2="-3.65" y2="-2.15" width="0.127" layer="20"/>
-<wire x1="3.65" y1="-2.15" x2="3.65" y2="-1.275" width="0.127" layer="20"/>
-<wire x1="3.65" y1="1.275" x2="3.65" y2="2.15" width="0.127" layer="20"/>
 <wire x1="-5.11" y1="2.8" x2="5.11" y2="2.8" width="0.127" layer="51"/>
 <wire x1="5.11" y1="2.8" x2="5.11" y2="-2.8" width="0.127" layer="51"/>
 <wire x1="5.11" y1="-2.8" x2="-5.11" y2="-2.8" width="0.127" layer="51"/>
